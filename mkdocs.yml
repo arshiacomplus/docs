@@ -1,37 +1,20 @@
 # Copyright (c) 2016-2025 Martin Donath <martin.donath@squidfunk.com>
 
-# Permission is hereby granted, free of charge, to any person obtaining a copy
-# of this software and associated documentation files (the "Software"), to
-# deal in the Software without restriction, including without limitation the
-# rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
-# sell copies of the Software, and to permit persons to whom the Software is
-# furnished to do so, subject to the following conditions:
-
-# The above copyright notice and this permission notice shall be included in
-# all copies or substantial portions of the Software.
-
-# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-# FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
-# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
-# FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
-# IN THE SOFTWARE.
-
 # Project information
-site_name: Material for MkDocs
-site_url: https://squidfunk.github.io/mkdocs-material/
-site_author: Martin Donath
+site_name: docs
+site_url: https://arshiacomplus.github.io/docs/
+site_author: Arshia
 site_description: >-
-  Write your documentation in Markdown and create a professional static site in
-  minutes – searchable, customizable, in 60+ languages, for all devices
+  WarpScanner  Documentations
+  --- Fast & Open-Source Warp Scanner
 
 # Repository
-repo_name: squidfunk/mkdocs-material
-repo_url: https://github.com/squidfunk/mkdocs-material
+repo_name: arshiacomplus/WarpScanner
+repo_url: https://github.com/arshiacomplus/WarpScanner/
+edit_uri: edit/main/docs/
 
 # Copyright
-copyright: Copyright &copy; 2016 - 2025 Martin Donath
+copyright: Copyright &copy; 2021 - 2025 Arshia-Complus
 
 # Configuration
 theme:
@@ -43,15 +26,15 @@ theme:
     - content.action.view
     - content.code.annotate
     - content.code.copy
-    # - content.code.select
-    # - content.footnote.tooltips
-    # - content.tabs.link
+    - content.code.select
+    - content.footnote.tooltips
+    - content.tabs.link
     - content.tooltips
-    # - header.autohide
-    # - navigation.expand
+    - header.autohide
+    - navigation.expand
     - navigation.footer
     - navigation.indexes
-    # - navigation.instant
+    - navigation.instant
     # - navigation.instant.prefetch
     # - navigation.instant.progress
     # - navigation.prune
@@ -65,24 +48,26 @@ theme:
     - search.suggest
     - toc.follow
     # - toc.integrate
-  palette:
+
+    palette:
+    # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
       toggle:
-        icon: material/link
+        icon: material/brightness-auto
         name: Switch to light mode
+
+    # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: indigo
-      accent: indigo
       toggle:
-        icon: material/toggle-switch
+        icon: material/brightness-7
         name: Switch to dark mode
+
+    # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: black
-      accent: indigo
       toggle:
-        icon: material/toggle-switch-off
+        icon: material/brightness-4
         name: Switch to system preference
   font:
     text: Roboto
@@ -90,6 +75,9 @@ theme:
   favicon: assets/favicon.png
   icon:
     logo: logo
+    repo: fontawesome/brands/git-alt
+    edit: material/pencil
+    view: material/eye
 
 # Plugins
 plugins:
@@ -98,6 +86,9 @@ plugins:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - minify:
       minify_html: true
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: data
 
 # Hooks
 hooks:
@@ -114,15 +105,15 @@ extra:
     property: !ENV GOOGLE_ANALYTICS_KEY
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/squidfunk
-    - icon: fontawesome/brands/docker
-      link: https://hub.docker.com/r/squidfunk/mkdocs-material/
+      link: https://github.com/arahiacomplus
+    - icon: fontawesome/brands/telegram
+      link: https://t.me/arshia_mod_fun
     - icon: fontawesome/brands/python
       link: https://pypi.org/project/mkdocs-material/
-    - icon: fontawesome/brands/bluesky
-      link: https://bsky.app/profile/squidfunk.bsky.social
-    - icon: fontawesome/brands/mastodon
-      link: https://fosstodon.org/@squidfunk
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@arshiacomplus_official
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:arshiacomplus@gmail.com
     - icon: fontawesome/brands/x-twitter
       link: https://x.com/squidfunk
 
@@ -154,8 +145,8 @@ markdown_extensions:
   - pymdownx.magiclink:
       normalize_issue_symbols: true
       repo_url_shorthand: true
-      user: squidfunk
-      repo: mkdocs-material
+      user: arshiacomplus
+      repo: docs
   - pymdownx.mark
   - pymdownx.smartsymbols
   - pymdownx.snippets:

@@ -1,22 +1,25 @@
 {
-  "name": "mkdocs-material",
+  "name": "Docs",
   "version": "9.6.11",
-  "description": "Documentation that simply works",
+  "description": "Documentation that simply work with Scanner",
   "keywords": [
-    "mkdocs",
+    "docs",
     "documentation",
-    "theme"
+    "arshiacomplus",
+    "warp",
+    "scanner",
+    "cloudflare"
   ],
-  "homepage": "https://squidfunk.github.io/mkdocs-material/",
+  "homepage": "https://arshiacomplus.github.io/docs",
   "bugs": {
-    "url": "https://github.com/squidfunk/mkdocs-material/issues",
-    "email": "martin.donath@squidfunk.com"
+    "url": "https://github.com/arshiacomplus/WarpScanner/issues",
+    "email": "arshiacomplus@gmail.com"
   },
   "license": "MIT",
   "private": true,
   "author": {
-    "name": "Martin Donath",
-    "email": "martin.donath@squidfunk.com"
+    "name": "Arshia Complus",
+    "email": "arshiacomplus@gmail.com"
   },
   "contributors": [],
   "repository": {
