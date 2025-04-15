@@ -49,7 +49,7 @@ job, many maintainers burn out when their side projects become successful, which
 is why @squidfunk decided to give the [Sponsorware] model a try and make
 Material for MkDocs his primary job. This turned out to be an incredible success.
 
-  [the first version]: https://github.com/squidfunk/mkdocs-material/releases/tag/0.1.0
+  [the first version]: https://github.com/arshiacomplus/docs/releases/tag/0.1.0
 
 ### Sponsorware
 

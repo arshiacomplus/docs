@@ -65,7 +65,7 @@ To be a successful Community Expert, your skills should include the following:
     project developments, regularly check the discussion board, and respond to
     notifications in reasonable time.
 
-  [discussion board]: https://github.com/squidfunk/mkdocs-material/discussions
+  [discussion board]: https://github.com/arshiacomplus/docs/discussions
   [documentation]: https://squidfunk.github.io/mkdocs-material/
   [contribution guides]: ../contributing/index.md
 

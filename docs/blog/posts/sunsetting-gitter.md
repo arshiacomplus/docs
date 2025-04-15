@@ -18,8 +18,8 @@ allow to ask the community for support and to discuss ideas and issues. In the
 past weeks, we have begun to question whether this duplication is in the best
 interest of our project. This post explains the rationale behind our decision.
 
-  [Gitter]: https://gitter.im/squidfunk/mkdocs-material
-  [GitHub discussions]: https://github.com/squidfunk/mkdocs-material/discussions
+  [Gitter]: https://gitter.im/arshiacomplus/docs
+  [GitHub discussions]: https://github.com/arshiacomplus/docs/discussions
 
 <!-- more -->
 

@@ -98,7 +98,7 @@ The following environments come with a preinstalled version of [Cairo Graphics]:
   [installation guide]: https://www.cairographics.org/download/
   [MSYS2]: https://www.msys2.org/
   [UCRT64]: https://www.msys2.org/docs/environments/
-  [Docker image]: https://hub.docker.com/r/squidfunk/mkdocs-material/
+  [Docker image]: https://hub.docker.com/r/arshiacomplus/docs/
   [GitHub Actions]: ../../publishing-your-site.md#with-github-actions
 
 ### pngquant
@@ -193,7 +193,7 @@ process is different:
     View source code of [cairo-lookup-macos.py]
 
     ```bash title="Python Debug macOS Script"
-    curl "https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/includes/debug/cairo-lookup-macos.py" | python -
+    curl "https://raw.githubusercontent.com/arshiacomplus/docs/master/includes/debug/cairo-lookup-macos.py" | python -
     ```
 
 === ":fontawesome-brands-windows: Windows"
@@ -225,7 +225,7 @@ process is different:
     View source code of [cairo-lookup-windows.py]
 
     ```powershell title="PowerShell - Python Debug Windows Script"
-    (Invoke-WebRequest "https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/includes/debug/cairo-lookup-windows.py").Content | python -
+    (Invoke-WebRequest "https://raw.githubusercontent.com/arshiacomplus/docs/master/includes/debug/cairo-lookup-windows.py").Content | python -
     ```
 
 === ":material-linux: Linux"
@@ -253,7 +253,7 @@ process is different:
     View source code of [cairo-lookup-linux.py]
 
     ```bash title="Python Debug Linux Script"
-    curl "https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/includes/debug/cairo-lookup-linux.py" | python -
+    curl "https://raw.githubusercontent.com/arshiacomplus/docs/master/includes/debug/cairo-lookup-linux.py" | python -
     ```
 
   [PyPi CairoSVG]: https://pypi.org/project/CairoSVG
@@ -262,11 +262,11 @@ process is different:
   [ubuntu-ldconfig]: https://manpages.ubuntu.com/manpages/focal/en/man8/ldconfig.8.html
   [ubuntu-ld]: https://manpages.ubuntu.com/manpages/xenial/man1/ld.1.html
   [ubuntu-gcc]: https://manpages.ubuntu.com/manpages/trusty/man1/gcc.1.html
-  [cffi-issue]: https://github.com/squidfunk/mkdocs-material/issues/5121
+  [cffi-issue]: https://github.com/arshiacomplus/docs/issues/5121
   [cffi-dopen]: https://github.com/Kozea/cairocffi/blob/f1984d644bbc462ef0ec33b97782cf05733d7b53/cairocffi/__init__.py#L24-L49
   [find-library-macOS]: https://github.com/python/cpython/blob/4d58a1d8fb27048c11bcbda3da1bebf78f979335/Lib/ctypes/util.py#L70-L81
   [find-library-Windows]: https://github.com/python/cpython/blob/4d58a1d8fb27048c11bcbda3da1bebf78f979335/Lib/ctypes/util.py#L59-L67
   [find-library-Linux]: https://github.com/python/cpython/blob/4d58a1d8fb27048c11bcbda3da1bebf78f979335/Lib/ctypes/util.py#L92
-  [cairo-lookup-macos.py]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/includes/debug/cairo-lookup-macos.py
-  [cairo-lookup-windows.py]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/includes/debug/cairo-lookup-windows.py
-  [cairo-lookup-linux.py]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/includes/debug/cairo-lookup-linux.py
+  [cairo-lookup-macos.py]: https://raw.githubusercontent.com/arshiacomplus/docs/master/includes/debug/cairo-lookup-macos.py
+  [cairo-lookup-windows.py]: https://raw.githubusercontent.com/arshiacomplus/docs/master/includes/debug/cairo-lookup-windows.py
+  [cairo-lookup-linux.py]: https://raw.githubusercontent.com/arshiacomplus/docs/master/includes/debug/cairo-lookup-linux.py

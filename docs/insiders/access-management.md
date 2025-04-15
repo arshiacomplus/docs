@@ -201,4 +201,4 @@ with others who may have similar requirements and setups, as well as to
 exchange tips and explore solutions together.
 
   [mirror the repository in another location]: https://docs.github.com/en/repositories/creating-and-managing-repositories/duplicating-a-repository#mirroring-a-repository-in-another-location
-  [discussion board]: https://github.com/squidfunk/mkdocs-material/discussions
+  [discussion board]: https://github.com/arshiacomplus/docs/discussions

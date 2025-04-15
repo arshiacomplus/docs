@@ -117,7 +117,7 @@ export function setupVersionSelector(
                 // interfere with instant navigation. We need to refactor this
                 // at some point together with instant navigation.
                 //
-                // See https://github.com/squidfunk/mkdocs-material/issues/4012
+                // See https://github.com/arshiacomplus/docs/issues/4012
                 if (!ev.target.closest(".md-version")) {
                   const version = urls.get(url)!
                   if (version === current)

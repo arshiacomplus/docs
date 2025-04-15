@@ -1,4 +1,4 @@
-## Everything you would expecttt
+## Everything you would expect
 
 ### It's just Markdown
 

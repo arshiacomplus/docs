@@ -69,51 +69,51 @@ _Be our first gold sponsor!_
 
 </div>
 
-  [FastAPI]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-fastapi.png
-  [Trendpop]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-trendpop.png
-  [Cirrus CI]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-cirrus-ci.png
-  [Basler]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-basler.png
-  [KX]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-kx.png
-  [Prefect]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-prefect.png
-  [Zenoss]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-zenoss.png
-  [Posit]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-posit.png
-  [n8n]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-n8n.png
-  [Dogado]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-dogado.png
-  [World Wide Technology]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-wwt.png
-  [Coda]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-coda.png
-  [Elastic]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-elastic.png
-  [IP Fabric]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-ip-fabric.png
-  [Apex.AI]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-apex-ai.png
-  [Jitterbit]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-jitterbit.png
-  [Sparkfun]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-sparkfun.png
-  [Eccenca]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-eccenca.png
-  [Neptune]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-neptune-ai.png
-  [Cash App]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-cashapp.png
-  [RackN]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-rackn.png
-  [CivicActions]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-civic-actions.png
-  [bitcrowd]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-bitcrowd.png
-  [GetScreen.me]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-getscreenme.png
-  [BotCity]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-botcity.png
-  [Kolena]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-kolena.png
-  [Evergiving]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-evergiving.png
-  [Astral]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-astral.png
-  [Oikolab]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-oikolab.png
-  [Bühler Group]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-buhler.png
-  [3DR]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-3dr.png
-  [Spotware]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-spotware.png
-  [Milford Assets]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-milford.png
-  [Lechler]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-lechler.png
-  [SailPoint]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-sailpoint.png
-  [Invers]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-invers.png
-  [Maxar]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-maxar.png
-  [EquipmentShare]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-equipmentshare.png
-  [Hummingbot]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-hummingbot.png
-  [Future]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-future.svg
-  [SIEMENS]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-siemens.png
-  [OctoPerf]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-octoperf.png
-  [Pydantic Logfire]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-logfire.png
-  [Inter Comestibles]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-intercomestibles.png
-  [Centara]: https://raw.githubusercontent.com/squidfunk/mkdocs-material/master/.github/assets/sponsors/sponsor-centara.png
+  [FastAPI]: https://raw.githubusercontent.com/arshiacomplus/docs/master/.github/assets/sponsors/sponsor-fastapi.png
+  [Trendpop]: https://raw.githubusercontent.com/arshiacomplus/docs/master/.github/assets/sponsors/sponsor-trendpop.png
+  [Cirrus CI]: https://raw.githubusercontent.com/arshiacomplus/docs/master/.github/assets/sponsors/sponsor-cirrus-ci.png
+  [Basler]: https://raw.githubusercontent.com/arshiacomplus/docs/master/.github/assets/sponsors/sponsor-basler.png
+  [KX]: https://raw.githubusercontent.com/arshiacomplus/docs/master/.github/assets/sponsors/sponsor-kx.png
+  [Prefect]: https://raw.githubusercontent.com/arshiacomplus/docs/master/.github/assets/sponsors/sponsor-prefect.png
+  [Zenoss]: https://raw.githubusercontent.com/arshiacomplus/docs/master/.github/assets/sponsors/sponsor-zenoss.png
+  [Posit]: https://raw.githubusercontent.com/arshiacomplus/docs/master/.github/assets/sponsors/sponsor-posit.png
+  [n8n]: https://raw.githubusercontent.com/arshiacomplus/docs/master/.github/assets/sponsors/sponsor-n8n.png
+  [Dogado]: https://raw.githubusercontent.com/arshiacomplus/docs/master/.github/assets/sponsors/sponsor-dogado.png
+  [World Wide Technology]: https://raw.githubusercontent.com/arshiacomplus/docs/master/.github/assets/sponsors/sponsor-wwt.png
+  [Coda]: https://raw.githubusercontent.com/arshiacomplus/docs/master/.github/assets/sponsors/sponsor-coda.png
+  [Elastic]: https://raw.githubusercontent.com/arshiacomplus/docs/master/.github/assets/sponsors/sponsor-elastic.png
+  [IP Fabric]: https://raw.githubusercontent.com/arshiacomplus/docs/master/.github/assets/sponsors/sponsor-ip-fabric.png
+  [Apex.AI]: https://raw.githubusercontent.com/arshiacomplus/docs/master/.github/assets/sponsors/sponsor-apex-ai.png
+  [Jitterbit]: https://raw.githubusercontent.com/arshiacomplus/docs/master/.github/assets/sponsors/sponsor-jitterbit.png
+  [Sparkfun]: https://raw.githubusercontent.com/arshiacomplus/docs/master/.github/assets/sponsors/sponsor-sparkfun.png
+  [Eccenca]: https://raw.githubusercontent.com/arshiacomplus/docs/master/.github/assets/sponsors/sponsor-eccenca.png
+  [Neptune]: https://raw.githubusercontent.com/arshiacomplus/docs/master/.github/assets/sponsors/sponsor-neptune-ai.png
+  [Cash App]: https://raw.githubusercontent.com/arshiacomplus/docs/master/.github/assets/sponsors/sponsor-cashapp.png
+  [RackN]: https://raw.githubusercontent.com/arshiacomplus/docs/master/.github/assets/sponsors/sponsor-rackn.png
+  [CivicActions]: https://raw.githubusercontent.com/arshiacomplus/docs/master/.github/assets/sponsors/sponsor-civic-actions.png
+  [bitcrowd]: https://raw.githubusercontent.com/arshiacomplus/docs/master/.github/assets/sponsors/sponsor-bitcrowd.png
+  [GetScreen.me]: https://raw.githubusercontent.com/arshiacomplus/docs/master/.github/assets/sponsors/sponsor-getscreenme.png
+  [BotCity]: https://raw.githubusercontent.com/arshiacomplus/docs/master/.github/assets/sponsors/sponsor-botcity.png
+  [Kolena]: https://raw.githubusercontent.com/arshiacomplus/docs/master/.github/assets/sponsors/sponsor-kolena.png
+  [Evergiving]: https://raw.githubusercontent.com/arshiacomplus/docs/master/.github/assets/sponsors/sponsor-evergiving.png
+  [Astral]: https://raw.githubusercontent.com/arshiacomplus/docs/master/.github/assets/sponsors/sponsor-astral.png
+  [Oikolab]: https://raw.githubusercontent.com/arshiacomplus/docs/master/.github/assets/sponsors/sponsor-oikolab.png
+  [Bühler Group]: https://raw.githubusercontent.com/arshiacomplus/docs/master/.github/assets/sponsors/sponsor-buhler.png
+  [3DR]: https://raw.githubusercontent.com/arshiacomplus/docs/master/.github/assets/sponsors/sponsor-3dr.png
+  [Spotware]: https://raw.githubusercontent.com/arshiacomplus/docs/master/.github/assets/sponsors/sponsor-spotware.png
+  [Milford Assets]: https://raw.githubusercontent.com/arshiacomplus/docs/master/.github/assets/sponsors/sponsor-milford.png
+  [Lechler]: https://raw.githubusercontent.com/arshiacomplus/docs/master/.github/assets/sponsors/sponsor-lechler.png
+  [SailPoint]: https://raw.githubusercontent.com/arshiacomplus/docs/master/.github/assets/sponsors/sponsor-sailpoint.png
+  [Invers]: https://raw.githubusercontent.com/arshiacomplus/docs/master/.github/assets/sponsors/sponsor-invers.png
+  [Maxar]: https://raw.githubusercontent.com/arshiacomplus/docs/master/.github/assets/sponsors/sponsor-maxar.png
+  [EquipmentShare]: https://raw.githubusercontent.com/arshiacomplus/docs/master/.github/assets/sponsors/sponsor-equipmentshare.png
+  [Hummingbot]: https://raw.githubusercontent.com/arshiacomplus/docs/master/.github/assets/sponsors/sponsor-hummingbot.png
+  [Future]: https://raw.githubusercontent.com/arshiacomplus/docs/master/.github/assets/sponsors/sponsor-future.svg
+  [SIEMENS]: https://raw.githubusercontent.com/arshiacomplus/docs/master/.github/assets/sponsors/sponsor-siemens.png
+  [OctoPerf]: https://raw.githubusercontent.com/arshiacomplus/docs/master/.github/assets/sponsors/sponsor-octoperf.png
+  [Pydantic Logfire]: https://raw.githubusercontent.com/arshiacomplus/docs/master/.github/assets/sponsors/sponsor-logfire.png
+  [Inter Comestibles]: https://raw.githubusercontent.com/arshiacomplus/docs/master/.github/assets/sponsors/sponsor-intercomestibles.png
+  [Centara]: https://raw.githubusercontent.com/arshiacomplus/docs/master/.github/assets/sponsors/sponsor-centara.png
 
 <hr />
 

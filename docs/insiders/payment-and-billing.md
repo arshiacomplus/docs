@@ -70,7 +70,7 @@ happy to provide them with free access to the private Insiders repository and
 encourage you to [join the team] as well!
 
   [community experts]: community-experts-program/index.md
-  [discussion board]: https://github.com/squidfunk/mkdocs-material/discussions
+  [discussion board]: https://github.com/arshiacomplus/docs/discussions
   [join the team]: community-experts-program/index.md/#ready-to-get-started
 
 ## Billing cycle

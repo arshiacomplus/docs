@@ -17,7 +17,7 @@ documentation, set [`repo_url`][repo_url] in `mkdocs.yml` to the public URL of
 your repository, e.g.:
 
 ``` yaml
-repo_url: https://github.com/squidfunk/mkdocs-material
+repo_url: https://github.com/arshiacomplus/docs
 ```
 
 The link to the repository will be rendered next to the search bar on big
@@ -52,7 +52,7 @@ _repository name_ automatically. If you wish to customize the name, set
 [`repo_name`][repo_name] in `mkdocs.yml`:
 
 ``` yaml
-repo_name: squidfunk/mkdocs-material
+repo_name: arshiacomplus/docs
 ```
 
   [repo_name]: https://www.mkdocs.org/user-guide/configuration/#repo_name
@@ -276,7 +276,7 @@ Then, add the following lines to `mkdocs.yml`:
 ``` yaml
 plugins:
   - git-committers:
-      repository: squidfunk/mkdocs-material
+      repository: arshiacomplus/docs
       branch: main
 ```
 
@@ -303,7 +303,7 @@ The following configuration options are supported:
     ``` yaml
     plugins:
       - git-committers:
-          repository: squidfunk/mkdocs-material
+          repository: arshiacomplus/docs
     ```
 
 <!-- md:option git-committers.branch -->

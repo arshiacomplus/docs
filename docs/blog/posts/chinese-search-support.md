@@ -80,4 +80,4 @@ improved, please [open an issue].
   [zero-width whitespace]: https://en.wikipedia.org/wiki/Zero-width_space
   [separator]: ../../plugins/search.md#config.separator
   [q=支持]: ?q=支持
-  [open an issue]: https://github.com/squidfunk/mkdocs-material/issues/new/choose
+  [open an issue]: https://github.com/arshiacomplus/docs/issues/new/choose

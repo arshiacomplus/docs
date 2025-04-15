@@ -167,7 +167,7 @@ search experience for theme authors, which is why Material for MkDocs (up to
 now) did some [monkey patching] to be able to render slightly more
 meaningful search previews.
 
-  [monkey patching]: https://github.com/squidfunk/mkdocs-material/blob/ec7ccd2b2d15dd033740f388912f7be7738feec2/src/assets/javascripts/integrations/search/document/index.ts#L68-L71
+  [monkey patching]: https://github.com/arshiacomplus/docs/blob/ec7ccd2b2d15dd033740f388912f7be7738feec2/src/assets/javascripts/integrations/search/document/index.ts#L68-L71
 
 ### Search worker
 
@@ -208,8 +208,8 @@ into and out of the index.
 
   [separator]: ../../plugins/search.md#config.separator
   [default tokenizer]: https://github.com/olivernn/lunr.js/blob/aa5a878f62a6bba1e8e5b95714899e17e8150b38/lunr.js#L413-L456
-  [post-processed]: https://github.com/squidfunk/mkdocs-material/blob/ec7ccd2b2d15dd033740f388912f7be7738feec2/src/assets/javascripts/integrations/search/_/index.ts#L249-L272
-  [rescored]: https://github.com/squidfunk/mkdocs-material/blob/ec7ccd2b2d15dd033740f388912f7be7738feec2/src/assets/javascripts/integrations/search/_/index.ts#L274-L275
+  [post-processed]: https://github.com/arshiacomplus/docs/blob/ec7ccd2b2d15dd033740f388912f7be7738feec2/src/assets/javascripts/integrations/search/_/index.ts#L249-L272
+  [rescored]: https://github.com/arshiacomplus/docs/blob/ec7ccd2b2d15dd033740f388912f7be7738feec2/src/assets/javascripts/integrations/search/_/index.ts#L274-L275
 
 ### Search previews
 
@@ -262,7 +262,7 @@ carefully considered:
     China and Japan are both within the top 5 countries of origin of users of
     Material for MkDocs.
 
-  [truncated]: https://github.com/squidfunk/mkdocs-material/blob/master/src/templates/assets/javascripts/templates/search/index.tsx#L90
+  [truncated]: https://github.com/arshiacomplus/docs/blob/master/src/templates/assets/javascripts/templates/search/index.tsx#L90
   [search preview]: search-better-faster-smaller/search-preview.png
   [Just the Docs]: https://pmarsceill.github.io/just-the-docs/
   [Docusaurus]: https://github.com/lelouch77/docusaurus-lunr-search
@@ -544,7 +544,7 @@ powerful as tokenization:
     see, for example, the results of
     [:octicons-search-24: twitter][q=twitter].
 
-  [regular expressions]: https://github.com/squidfunk/mkdocs-material/blob/ec7ccd2b2d15dd033740f388912f7be7738feec2/src/assets/javascripts/integrations/search/highlighter/index.ts#L61-L91
+  [regular expressions]: https://github.com/arshiacomplus/docs/blob/ec7ccd2b2d15dd033740f388912f7be7738feec2/src/assets/javascripts/integrations/search/highlighter/index.ts#L61-L91
   [dedicated segmenter]: http://chasen.org/~taku/software/TinySegmenter/
   [new tokenization approach]: #tokenizer-lookahead
   [case changes]: #case-changes

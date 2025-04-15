@@ -112,7 +112,7 @@ contents:
               restore-keys: |
                 mkdocs-material-
           - run: apt-get install pngquant # (2)!
-          - run: pip install git+https://${GH_TOKEN}@github.com/squidfunk/mkdocs-material-insiders.git
+          - run: pip install git+https://${GH_TOKEN}@github.com/arshiacomplus/docs-insiders.git
           - run: mkdocs gh-deploy --force
     env:
       GH_TOKEN: ${{ secrets.GH_TOKEN }} # (3)!
@@ -206,7 +206,7 @@ contents:
       stage: deploy
       image: python:latest
       script: # (1)!
-        - pip install git+https://${GH_TOKEN}@github.com/squidfunk/mkdocs-material-insiders.git
+        - pip install git+https://${GH_TOKEN}@github.com/arshiacomplus/docs-insiders.git
         - mkdocs build --site-dir public
       cache:
         key: ${CI_COMMIT_REF_SLUG}

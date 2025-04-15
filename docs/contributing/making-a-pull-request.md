@@ -144,8 +144,8 @@ sequenceDiagram
     folder. You may also want to make sure that relevant examples from the
     [examples repository] still build fine.
 
-[mkdocs-material]: https://github.com/squidfunk/mkdocs-material
-[mkdocs-material-insiders]: https://github.com/squidfunk/mkdocs-material-insiders/
+[mkdocs-material]: https://github.com/arshiacomplus/docs
+[mkdocs-material-insiders]: https://github.com/arshiacomplus/docs-insiders/
 [examples repository]: https://github.com/mkdocs-material/examples
 
 ### Finalizing
@@ -250,14 +250,14 @@ appending `-fork` so that people who come across it know that they have found a
 temporary fork rather then the original or a permanent fork of the project.
 You may also want to add a description that clarifies what the repository is for.
 
-[repository for the public version]: https://github.com/squidfunk/mkdocs-material
+[repository for the public version]: https://github.com/arshiacomplus/docs
 
 To make changes to functionality available only within the Insiders version,
 fork [the Insiders repository]. Note that the fork will be a private repository.
 Please respect the [terms of the Insiders program] and the spirit of the
 Sponsorware approach used to maintain and develop Material for MkDocs.
 
-[the Insiders repository]: https://github.com/squidfunk/mkdocs-material-insiders/
+[the Insiders repository]: https://github.com/arshiacomplus/docs-insiders/
 [terms of the Insiders program]: https://squidfunk.github.io/mkdocs-material/insiders/license/#fair-use-policy
 
 ### Setting up a development environment
@@ -306,12 +306,12 @@ This is what it might look like:
 $ git remote -v
 origin	git@github.com:<your_username>/mkdocs-material-fork.git (fetch)
 origin	git@github.com:<your_username>/mkdocs-material-fork.git (push)
-$ git remote add upstream https://github.com/squidfunk/mkdocs-material.git
+$ git remote add upstream https://github.com/arshiacomplus/docs.git
 $ git remote -v
 origin	git@github.com:alexvoss/mkdocs-material-fork.git (fetch)
 origin	git@github.com:alexvoss/mkdocs-material-fork.git (push)
-upstream	https://github.com/squidfunk/mkdocs-material.git (fetch)
-upstream	https://github.com/squidfunk/mkdocs-material.git (push)
+upstream	https://github.com/arshiacomplus/docs.git (fetch)
+upstream	https://github.com/arshiacomplus/docs.git (push)
 ```
 
 After you have done this, you can pull any concurrent changes from the upstream

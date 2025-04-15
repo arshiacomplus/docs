@@ -44,7 +44,7 @@ the default slug function works. Consider using a [Unicode-aware slug function].
   [single language per document]: https://www.w3.org/International/questions/qa-html-language-declarations.en#attributes
   [language selector]: #site-language-selector
   [Unicode-aware slug function]: extensions/python-markdown.md#+toc.slugify
-  [add a new language]: https://github.com/squidfunk/mkdocs-material/issues/new?template=04-add-a-translation.yml&title=Add+translations+for+...
+  [add a new language]: https://github.com/arshiacomplus/docs/issues/new?template=04-add-a-translation.yml&title=Add+translations+for+...
 
 ### Site language selector
 
@@ -204,5 +204,5 @@ adjust the ones you want to override:
     ```
 
   [theme extension]: ../customization.md#extending-the-theme
-  [translations]: https://github.com/squidfunk/mkdocs-material/blob/master/src/templates/partials/languages/
-  [list of available languages]: https://github.com/squidfunk/mkdocs-material/blob/master/src/templates/partials/languages/
+  [translations]: https://github.com/arshiacomplus/docs/blob/master/src/templates/partials/languages/
+  [list of available languages]: https://github.com/arshiacomplus/docs/blob/master/src/templates/partials/languages/

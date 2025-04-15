@@ -79,7 +79,7 @@ class InfoPlugin(BasePlugin[InfoConfig]):
             return
 
         # Resolve latest version
-        url = "https://github.com/squidfunk/mkdocs-material/releases/latest"
+        url = "https://github.com/arshiacomplus/docs/releases/latest"
         res = requests.get(url, allow_redirects = False)
 
         # Check if we're running the latest version

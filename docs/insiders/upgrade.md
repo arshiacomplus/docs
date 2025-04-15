@@ -13,7 +13,7 @@ guide] and go through the steps to ensure your configuration is up to date and
 all necessary changes have been made. 
 
   [upgrade guide]: ../upgrade.md
-  [list of tags]: https://github.com/squidfunk/mkdocs-material-insiders/tags
+  [list of tags]: https://github.com/arshiacomplus/docs-insiders/tags
 
 Depending on how you installed and what you want to upgrade to you
 need to run different commands:
@@ -25,7 +25,7 @@ need to run different commands:
     the tag at the end of the URL of the command given below:
 
     ```
-    pip install --upgrade git+https://${GH_TOKEN}@github.com/squidfunk/mkdocs-material-insiders.git@9.4.2-insiders-4.42.0
+    pip install --upgrade git+https://${GH_TOKEN}@github.com/arshiacomplus/docs-insiders.git@9.4.2-insiders-4.42.0
     ```
 
 === "pip upgrade to latest development"
@@ -34,7 +34,7 @@ need to run different commands:
     latest development version, run:
 
     ```
-    pip install --upgrade --force-reinstall git+https://${GH_TOKEN}@github.com/squidfunk/mkdocs-material-insiders.git
+    pip install --upgrade --force-reinstall git+https://${GH_TOKEN}@github.com/arshiacomplus/docs-insiders.git
     ```
 
     The `--force-reinstall` option serves to make sure `pip` does, in fact,

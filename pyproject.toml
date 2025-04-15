@@ -69,9 +69,9 @@ imaging = [
 
 [project.urls]
 Documentation = "https://squidfunk.github.io/mkdocs-material/"
-Source = "https://github.com/squidfunk/mkdocs-material"
+Source = "https://github.com/arshiacomplus/docs"
 Changelog = "https://squidfunk.github.io/mkdocs-material/changelog/"
-Issues = "https://github.com/squidfunk/mkdocs-material/issues"
+Issues = "https://github.com/arshiacomplus/docs/issues"
 Funding = "https://github.com/sponsors/squidfunk"
 
 [project.entry-points."mkdocs.plugins"]

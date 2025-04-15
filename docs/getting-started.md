@@ -100,13 +100,13 @@ and pull the image with:
 === "Latest"
 
     ```
-    docker pull squidfunk/mkdocs-material
+    docker pull arshiacomplus/docs
     ```
 
 === "9.x"
 
     ```
-    docker pull squidfunk/mkdocs-material:9
+    docker pull arshiacomplus/docs:9
     ```
 
 The `mkdocs` executable is provided as an entry point and `serve` is the
@@ -118,7 +118,7 @@ The following plugins are bundled with the Docker image:
 - [mkdocs-minify-plugin]
 - [mkdocs-redirects]
 
-  [Docker image]: https://hub.docker.com/r/squidfunk/mkdocs-material/
+  [Docker image]: https://hub.docker.com/r/arshiacomplus/docs/
   [mkdocs-minify-plugin]: https://github.com/byrnereese/mkdocs-minify-plugin
   [mkdocs-redirects]: https://github.com/datarobot/mkdocs-redirects
 
@@ -140,7 +140,7 @@ The following plugins are bundled with the Docker image:
         Create a `Dockerfile` and extend the official image:
 
         ``` Dockerfile title="Dockerfile"
-        FROM squidfunk/mkdocs-material
+        FROM arshiacomplus/docs
         RUN pip install mkdocs-macros-plugin
         RUN pip install mkdocs-glightbox
         ```
@@ -159,7 +159,7 @@ The following plugins are bundled with the Docker image:
     Next, build the image with the following command:
 
     ```
-    docker build -t squidfunk/mkdocs-material .
+    docker build -t arshiacomplus/docs .
     ```
 
     The new image will have additional packages installed and can be used
@@ -172,7 +172,7 @@ repository into a subfolder of your project root which might be useful if you
 want to use the very latest version:
 
 ```
-git clone https://github.com/squidfunk/mkdocs-material.git
+git clone https://github.com/arshiacomplus/docs.git
 ```
 
 Next, install the theme and its dependencies with:
@@ -181,4 +181,4 @@ Next, install the theme and its dependencies with:
 pip install -e mkdocs-material
 ```
 
-  [GitHub]: https://github.com/squidfunk/mkdocs-material
+  [GitHub]: https://github.com/arshiacomplus/docs

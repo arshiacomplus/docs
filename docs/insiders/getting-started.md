@@ -52,16 +52,16 @@ Make sure you have the `GH_TOKEN` variable set as instructed above.
     end of the URL with the one you want.
 
     ``` sh
-    pip install git+https://${GH_TOKEN}@github.com/squidfunk/mkdocs-material-insiders.git@9.4.2-insiders-4.42.0
+    pip install git+https://${GH_TOKEN}@github.com/arshiacomplus/docs-insiders.git@9.4.2-insiders-4.42.0
     ```
 
 === "Latest"
 
     ``` sh
-    pip install git+https://${GH_TOKEN}@github.com/squidfunk/mkdocs-material-insiders.git
+    pip install git+https://${GH_TOKEN}@github.com/arshiacomplus/docs-insiders.git
     ```
 
-[list of tags]: https://github.com/squidfunk/mkdocs-material-insiders/tags
+[list of tags]: https://github.com/arshiacomplus/docs-insiders/tags
 
 ### with docker
 
@@ -121,7 +121,7 @@ outlined in the [Getting Started guide](../getting-started.md#with-docker).
 Of course, you can use Material for MkDocs Insiders directly from `git`:
 
 ```
-git clone git@github.com:squidfunk/mkdocs-material-insiders.git mkdocs-material
+git clone git@github.com:arshiacomplus/docs-insiders.git mkdocs-material
 ```
 
 The theme will reside in the folder `mkdocs-material/material`. When cloning
@@ -133,13 +133,13 @@ pip install -e mkdocs-material
 ```
 
   [GitHub Container Registry]: https://docs.github.com/en/packages/guides/about-github-container-registry
-  [Fork the Insiders repository]: https://github.com/squidfunk/mkdocs-material-insiders/fork
+  [Fork the Insiders repository]: https://github.com/arshiacomplus/docs-insiders/fork
   [GitHub Actions]: https://docs.github.com/en/github/administering-a-repository/disabling-or-limiting-github-actions-for-a-repository
   [packages scope]: https://docs.github.com/en/developers/apps/scopes-for-oauth-apps#available-scopes
   [GitHub Actions secret]: https://docs.github.com/en/actions/reference/encrypted-secrets#creating-encrypted-secrets-for-a-repository
   [Create a new release]: https://docs.github.com/en/github/administering-a-repository/managing-releases-in-a-repository#creating-a-release
   [Pull App]: https://github.com/apps/pull
-  [build]: https://github.com/squidfunk/mkdocs-material-insiders/blob/master/.github/workflows/build.yml
+  [build]: https://github.com/arshiacomplus/docs-insiders/blob/master/.github/workflows/build.yml
 
 ## Built-in plugins
 

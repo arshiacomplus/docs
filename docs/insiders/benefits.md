@@ -45,7 +45,7 @@ been suggested by our community. We're also working to make our roadmap public.
 If you have something specific in mind, and wonder whether we've considered it,
 feel free to ask on our [discussion board].
 
-  [discussion board]: https://github.com/squidfunk/mkdocs-material/discussions
+  [discussion board]: https://github.com/arshiacomplus/docs/discussions
 
 ## Frequent releases
 
@@ -67,7 +67,7 @@ for enterprises:
 
   [commercial tiers]: sponsoring-tiers.md/#commercial-use
   [$125 a month]: sponsoring-tiers.md/#the-organization
-  [list of premium sponsors]: https://github.com/squidfunk/mkdocs-material#user-content-premium-sponsors
+  [list of premium sponsors]: https://github.com/arshiacomplus/docs#user-content-premium-sponsors
   [Prioritized]: ../support.md/#prioritized-support
 
 ----

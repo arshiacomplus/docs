@@ -342,6 +342,6 @@ Superseded by [Highlight]. Support for CodeHilite was dropped in
 essential extensions like [SuperFences] and [InlineHilite].
 
   [CodeHilite]: https://python-markdown.github.io/extensions/code_hilite/
-  [CodeHilite support]: https://github.com/squidfunk/mkdocs-material/releases/tag/0.1.0
+  [CodeHilite support]: https://github.com/arshiacomplus/docs/releases/tag/0.1.0
   [Highlight]: https://facelessuser.github.io/pymdown-extensions/extensions/highlight/
   [InlineHilite]: https://facelessuser.github.io/pymdown-extensions/extensions/inlinehilite/

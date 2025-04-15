@@ -68,7 +68,7 @@ theme:
   favicon: images/favicon.png
 ```
 
-  [Favicon default]: https://github.com/squidfunk/mkdocs-material/blob/master/material/templates/assets/images/favicon.png
+  [Favicon default]: https://github.com/arshiacomplus/docs/blob/master/material/templates/assets/images/favicon.png
 
 ### Site icons
 
@@ -103,7 +103,7 @@ The following is a complete list of customizable icons used by the theme:
 | `previous`   | Previous page in footer, hide search on mobile                                |
 | `next`       | Next page in footer                                                           |
 
-  [Site icon support]: https://github.com/squidfunk/mkdocs-material/releases/tag/9.2.0
+  [Site icon support]: https://github.com/arshiacomplus/docs/releases/tag/9.2.0
 
 ## Customization
 

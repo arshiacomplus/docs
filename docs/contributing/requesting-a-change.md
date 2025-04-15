@@ -18,7 +18,7 @@ This guide is our best effort to explain the criteria and reasoning behind our
 decisions when evaluating change requests and considering them for
 implementation.
 
-  [issue tracker]: https://github.com/squidfunk/mkdocs-material/issues
+  [issue tracker]: https://github.com/arshiacomplus/docs/issues
 
 ## Before creating an issue
 
@@ -66,7 +66,7 @@ them in the change request.__[^1]
 
 [:octicons-comment-discussion-16:&nbsp; Start a discussion][discussion board]{ .md-button .md-button--primary }
 
-  [discussion board]: https://github.com/squidfunk/mkdocs-material/discussions
+  [discussion board]: https://github.com/arshiacomplus/docs/discussions
 
 ## Issue template
 

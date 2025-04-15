@@ -6,8 +6,8 @@ site_description: >-
   --- Fast & Open-Source WarpScanner
 
 # Repository
-repo_name: squidfunk/mkdocs-material
-repo_url: https://github.com/squidfunk/mkdocs-material
+repo_name: arshiacomplus/docs
+repo_url: https://github.com/arshiacomplus/docs
 
 # Copyright
 copyright: Copyright &copy; 2016 - 2025 Martin Donath
@@ -267,7 +267,7 @@ nav:
       - Requesting a change: contributing/requesting-a-change.md
       - Adding translations: contributing/adding-translations.md
       - Making a pull request: contributing/making-a-pull-request.md
-      - Asking a question: https://github.com/squidfunk/mkdocs-material/discussions
+      - Asking a question: https://github.com/arshiacomplus/docs/discussions
     - Guides:
       - Creating a reproduction: guides/creating-a-reproduction.md
     - Community experts program:

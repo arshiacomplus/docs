@@ -82,7 +82,7 @@ extra:
     - [Linking of content tabs, i.e. active tab]
     - [Color palette][color palette]
 
-  [Scope support]: https://github.com/squidfunk/mkdocs-material/releases/tag/8.0.0
+  [Scope support]: https://github.com/arshiacomplus/docs/releases/tag/8.0.0
   [cookie consent]: ../setup/ensuring-data-privacy.md#cookie-consent
   [Linking of content tabs, i.e. active tab]: ../reference/content-tabs.md
   [color palette]: ../setup/changing-the-colors.md#color-palette

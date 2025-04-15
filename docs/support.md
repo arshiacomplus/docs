@@ -37,7 +37,7 @@ provided here, whereas customization tips are often sourced from and shared by
 our amazing community.
 
   [Community Experts]: insiders/community-experts-program/index.md
-  [discussion board]: https://github.com/squidfunk/mkdocs-material/discussions
+  [discussion board]: https://github.com/arshiacomplus/docs/discussions
 
 ### Issue Tracker
 
@@ -55,8 +55,8 @@ affect the speed of its development.
   [reporting bugs]: contributing/reporting-a-bug.md
   [change requests]: contributing/requesting-a-change.md
   [our contributing guides]: ./contributing/index.md
-  [issue tracker]: https://github.com/squidfunk/mkdocs-material/issues
-  [public issue tracker]: https://github.com/squidfunk/mkdocs-material/issues
+  [issue tracker]: https://github.com/arshiacomplus/docs/issues
+  [public issue tracker]: https://github.com/arshiacomplus/docs/issues
   [fair use policy]: ./insiders/license.md/#fair-use-policy
 
 ### Prioritized support

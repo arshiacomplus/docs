@@ -45,7 +45,7 @@ export function selectedVersionCorrespondingURL(
   const sitemapCommonPrefix = shortestCommonPrefix(selectedVersionSitemap.keys())
   if (!selectedVersionSitemap.has(sitemapCommonPrefix)) {
     // We could also check that `commonSitemapPrefix` ends in the canonical version,
-    // similarly to https://github.com/squidfunk/mkdocs-material/pull/7227. However,
+    // similarly to https://github.com/arshiacomplus/docs/pull/7227. However,
     // I don't believe that Mike/MkDocs ever generate sitemaps where it would matter
     return
   }
