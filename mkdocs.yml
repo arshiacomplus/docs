@@ -99,7 +99,7 @@ extra:
     - icon: fontawesome/solid/paper-plane
       link: mailto:arshiacomplus@gmail.com
     - icon: fontawesome/brands/x-twitter
-      link: https://x.com/arshia_complus
+      link: https://x.com/x
 
 # Extensions
 markdown_extensions:
@@ -156,18 +156,10 @@ not_in_nav: |
 
 # Page tree
 nav:
-  - Home: index.md
-  - Getting started:
+  - صفحه اصلی: index.md
+  - راه‌اندازی و نصب:
     - Installation: getting-started.md
-    - Creating your site: creating-your-site.md
-    - Publishing your site: publishing-your-site.md
-    - Customization: customization.md
-    - Conventions: conventions.md
-    - Browser support: browser-support.md
-    - Enterprise feedback: enterprise-support.md
-    - Philosophy: philosophy.md
-    - Alternatives: alternatives.md
-    - License: license.md
+    - لایسنس: license.md
     - Tutorials:
       - tutorials/index.md
       - "Blogs":
@@ -180,6 +172,7 @@ nav:
     - Changelog:
       - changelog/index.md
       - How to upgrade: upgrade.md
+  - بیلد گرفتن : "build.md"
   - Setup:
     - setup/index.md
     - Changing the colors: setup/changing-the-colors.md
