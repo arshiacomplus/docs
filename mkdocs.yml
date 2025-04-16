@@ -160,7 +160,7 @@ nav:
   - توضیحات:
     - نصب و راه‌اندازی: getting-started.md
     - لایسنس: license.md
-  - بیلد گرفتن : build.md
+  - بیلد گرفتن: build.md
     - نسخه ویندوز: build/windows.md
     - نسخه لینوکس: build/linux.md
     - نسخه اندروید: build/android.md
