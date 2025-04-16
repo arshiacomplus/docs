@@ -1062,7 +1062,7 @@ matches the new structure:
     -  </div>
     -</div>
     ```
-
+<!-- 
 === ":octicons-file-code-16: `partials/source-link`"
 
     ``` diff
@@ -1081,7 +1081,7 @@ matches the new structure:
     -  {% set icon = config.theme.icon.repo or "fontawesome/brands/git-alt" %}
     -  {% include ".icons/" ~ icon ~ ".svg" %}
     -</a>
-    ```
+    ``` -->
 
 ## Upgrading from 4.x to 5.x
 
@@ -1788,7 +1788,7 @@ matches the new structure:
     +</div>
     ```
 
-=== ":octicons-file-code-16: `partials/source-link.html`"
+<!-- === ":octicons-file-code-16: `partials/source-link.html`"
 
     ``` diff
     @@ -0,0 +1,13 @@
@@ -1805,7 +1805,7 @@ matches the new structure:
     +  {{ lang.t("meta.source") }}
     +  {% include ".icons/" ~ config.theme.icon.repo ~ ".svg" %}
     +</a>
-    ```
+    ``` -->
 
 === ":octicons-file-code-16: `partials/source.html`"
 
