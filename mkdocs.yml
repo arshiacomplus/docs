@@ -15,6 +15,7 @@ copyright: Copyright &copy; 2016 - 2025 Martin Donath
 theme:
   name: material
   custom_dir: material/overrides
+  language: fa
   features:
     - announce.dismiss
     - content.action.edit
