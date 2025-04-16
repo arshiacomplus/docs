@@ -2,12 +2,11 @@ site_name: Docs
 site_url: "https://arshiacomplus.github.io/docs/"
 site_author: ArshiaComplus
 site_description: >-
-  WarpScanner  Documentations
-  --- Fast & Open-Source WarpScanner
+  WarpScanner همه‌چیز رو خودش هندل می‌کنه؛ از IP تا تنظیمات WireGuard.
 
 # Repository
-repo_name: arshiacomplus/docs
-repo_url: https://github.com/arshiacomplus/docs
+repo_name: arshiacomplus/WarpScanner
+repo_url: https://github.com/arshiacomplus/WarpScanner
 
 # Copyright
 copyright: Copyright &copy; 2016 - 2025 Martin Donath
