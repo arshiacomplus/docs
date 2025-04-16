@@ -1,184 +1,168 @@
-# Getting started
+# نصب و راه‌اندازی WarpScanner 🚀
 
-Material for MkDocs is a powerful documentation framework on top of [MkDocs],
-a static site generator for project documentation.[^1] If you're familiar with
-Python, you can install Material for MkDocs with [`pip`][pip], the Python
-package manager. If not, we recommend using [`docker`][docker].
+خب خوشگله، بریم صفحه راه‌اندازی و نصب WarpScanner رو با هم اوکی کنیم! 🎉 این ابزار برای پیدا کردن بهترین آی‌پی‌های WARP (وایرگارد) برای پلتفرم‌های مختلف طراحی شده.
 
-  [^1]:
-    In 2016, Material for MkDocs started out as a simple theme for MkDocs, but
-    over the course of several years, it's now much more than that – with the
-    many built-in plugins, settings, and countless customization abilities,
-    Material for MkDocs is now one of the simplest and most powerful frameworks
-    for creating documentation for your project.
+تو این راهنما، یاد می‌گیری چطور آخرین نسخه رو بگیری، نصب کنی و از بخش‌های مختلفش استفاده کنی.
 
-  [MkDocs]: https://www.mkdocs.org
-  [pip]: #with-pip
-  [docker]: #with-docker
+## دریافت و نصب 📥
 
-## Installation
+اول از همه، برای گرفتن برنامه می‌تونی بری به صفحه **Releases** تو گیت‌هاب پروژه. اونجا همیشه آخرین نسخه‌ها برای پلتفرم‌های مختلف موجوده:
 
-### with pip <small>recommended</small> { #with-pip data-toc-label="with pip" }
+*   **صفحه کلی دانلودها:** [https://github.com/arshiacomplus/WarpScanner/releases](https://github.com/arshiacomplus/WarpScanner/releases)
 
-Material for MkDocs is published as a [Python package] and can be installed with
-`pip`, ideally by using a [virtual environment]. Open up a terminal and install
-Material for MkDocs with:
+### ویندوز 💻
 
-=== "Latest"
+برای ویندوز دو مدل فایل داریم: یکی **پرتابل** (بدون نیاز به نصب) و یکی **نصبی** (Setup).
 
-    ``` sh
-    pip install mkdocs-material
-    ```
+!!! warning "توجه به نسخه فایل‌ها"
+    لینک‌های مستقیمی که در ادامه می‌بینی، مربوط به **نسخه v0.5.1** هستن. برای اینکه همیشه جدیدترین نسخه با آخرین امکانات و رفع باگ‌ها رو داشته باشی، **حتماً به صفحه اصلی [Releases گیت‌هاب](https://github.com/arshiacomplus/WarpScanner/releases) سر بزن** و آخرین نسخه رو از اونجا دانلود کن. این لینک‌ها به صورت خودکار آپدیت *نمی‌شن*.
 
-=== "9.x"
+=== "نسخه پرتابل (Portable)"
 
-    ``` sh
-    pip install mkdocs-material=="9.*" # (1)!
-    ```
+    این نسخه نیاز به نصب نداره. فقط کافیه فایل `.rar` رو دانلود کنی، از حالت فشرده خارجش کنی و فایل اجرایی (`.exe`) رو اجرا کنی.
 
-    1.  Material for MkDocs uses [semantic versioning][^2], which is why it's a
-        good idea to limit upgrades to the current major version.
+    *   **برای ویندوز 7:**
+        [`WarpScanner-v0.5.1-win7-Portable.rar`](https://github.com/arshiacomplus/WarpScanner/releases/download/v0.5.1/WarpScanner-v0.5.1-win7-Portable.rar)
+    *   **برای ویندوز 8 و بالاتر:**
+        [`WarpScanner-v0.5.1-win8-upper-Portable.rar`](https://github.com/arshiacomplus/WarpScanner/releases/download/v0.5.1/WarpScanner-v0.5.1-win8-upper-Portable.rar)
 
-        This will make sure that you don't accidentally [upgrade to the next
-        major version], which may include breaking changes that silently corrupt
-        your site. Additionally, you can use `pip freeze` to create a lockfile,
-        so builds are reproducible at all times:
+=== "نسخه نصبی (Setup)"
 
-        ```
-        pip freeze > requirements.txt
-        ```
+    این نسخه مثل برنامه‌های معمولی نصب میشه. فایل `.exe` رو دانلود و اجرا کن و مراحل نصب رو برو جلو.
 
-        Now, the lockfile can be used for installation:
+    *   **برای ویندوز 7:**
+        [`WarpScanner-v0.5.1-win7-Setup.exe`](https://github.com/arshiacomplus/WarpScanner/releases/download/v0.5.1/WarpScanner-v0.5.1-win7-Setup.exe)
+    *   **برای ویندوز 8 و بالاتر:**
+        [`WarpScanner-v0.5.1-win8-upper-Setup.exe`](https://github.com/arshiacomplus/WarpScanner/releases/download/v0.5.1/WarpScanner-v0.5.1-win8-upper-Setup.exe)
 
-        ```
-        pip install -r requirements.txt
-        ```
+### لینوکس 🐧
 
-  [^2]:
-    Note that improvements of existing features are sometimes released as
-    patch releases, like for example improved rendering of content tabs, as
-    they're not considered to be new features.
+برای لینوکس فعلاً فقط یه نسخه داریم (مربوط به ورژن قدیمی‌تر برنامه).
 
-This will automatically install compatible versions of all dependencies:
-[MkDocs], [Markdown], [Pygments] and [Python Markdown Extensions]. Material for
-MkDocs always strives to support the latest versions, so there's no need to
-install those packages separately.
+!!! danger "نیاز به دسترسی روت (Root)"
+    یادت باشه که برای اجرای WarpScanner روی لینوکس، باید با دسترسی روت (`sudo`) اجراش کنی.
+
+!!! note "آخرین نسخه منتشر شده برای لینوکس"
+    این لینک مربوط به **نسخه v0.4.1** هست. برای بررسی نسخه‌های جدیدتر (اگر منتشر شده باشن)، به صفحه [Releases گیت‌هاب](https://github.com/arshiacomplus/WarpScanner/releases) مراجعه کن.
+
+*   **نسخه 64 بیتی:**
+    [`WarpScanner-v0.4.1-linux-64bit.tar.gz`](https://github.com/arshiacomplus/WarpScanner/releases/download/v0.4.1/WarpScanner-v0.4.1-linux-64bit.tar.gz)
+
+### اندروید 📱
+
+یه برنامه جدا با رابط گرافیکی برای اندروید هم داریم.
+
+!!! info "همیشه آخرین نسخه اندروید رو بگیر"
+    لینک مستقیم زیر مربوط به **نسخه v0.1.2** هست. برای دانلود جدیدترین ورژن، همیشه به مخزن اصلی نسخه اندروید سر بزن.
+
+*   **مخزن اصلی نسخه اندروید:**
+    [https://github.com/arshiacomplus/WarpScanner-android-GUI](https://github.com/arshiacomplus/WarpScanner-android-GUI)
+*   **صفحه دانلودهای نسخه اندروید:**
+    [https://github.com/arshiacomplus/WarpScanner-android-GUI/releases](https://github.com/arshiacomplus/WarpScanner-android-GUI/releases)
+*   **لینک دانلود مستقیم آخرین نسخه فعلی (v0.1.2):**
+    [`WarpScanner_v0.1.2.apk`](https://github.com/arshiacomplus/WarpScanner-android-GUI/releases/download/v0.1.2/WarpScanner_v0.1.2.apk)
 
 ---
 
-:fontawesome-brands-youtube:{ style="color: #EE0F0F" }
-__[How to set up Material for MkDocs]__ by @james-willett – :octicons-clock-24:
-27m – Learn how to create and host a documentation site using Material for
-MkDocs on GitHub Pages in a step-by-step guide.
+## راهنمای استفاده و توضیح بخش‌ها 🧭
 
-  [How to set up Material for MkDocs]: https://www.youtube.com/watch?v=xlABhbnNrfI
+حالا که برنامه رو گرفتی، بیا ببینیم چطور باید باهاش کار کنی و هر بخش چیکار می‌کنه.
+
+### تب اصلی (Main) 🏠
+
+این تب، صفحه شروع و قلب تپنده برنامه برای اسکن آی‌پی‌هاست.
+
+*   **بالای صفحه:** اینجا نسخه‌های IP که در دسترس هستن (مثلاً `IPv4`, `IPv6`) رو نشون میده. با زدن دکمه `Check` می‌تونی دوباره وضعیتشون رو بررسی کنی.
+*   **وسط صفحه:** یه کادر متنی (Text View) بزرگ هست که نتایج اسکن (آی‌پی‌های پیدا شده) اینجا لیست میشن.
+*   **دکمه‌های عملیاتی:**
+    *   `IPv4`: با زدن این دکمه، اسکن برای پیدا کردن آی‌پی‌های سالم وایرگارد نسخه 4 شروع میشه.
+    *   `IPv6`: با زدن این دکمه، اسکن برای پیدا کردن آی‌پی‌های سالم وایرگارد نسخه 6 شروع میشه.
+    *   `Clean`: این گزینه نتایج نمایش داده شده در کادر متنی رو بر اساس تنظیماتی که در ادامه میگیم (مثل محدوده پینگ) مرتب و تمیز می‌کنه.
+
+### منوی تنظیمات (Settings) ⚙️
+
+تو صفحه اصلی، یه دکمه منو (معمولاً سه خط یا چرخ‌دنده) هست. با کلیک روی اون و انتخاب گزینه `Settings`، می‌تونی تنظیمات مختلف برنامه رو تغییر بدی:
+
+*   **`Scan Speed` (سرعت اسکن):**
+    *   `Faster`: اسکن سریع‌تر انجام میشه، ولی ممکنه منابع بیشتری از سیستمت (CPU, RAM) رو مصرف کنه.
+    *   `Slower`: اسکن با سرعت کمتر و مصرف منابع بهینه‌تر انجام میشه.
+*   **`Save Result` (ذخیره نتایج):**
+    *   `Yes`: نتایج اسکن به صورت خودکار توی فایلی به اسم `result.txt` کنار فایل اجرایی برنامه (`.exe` در ویندوز) ذخیره میشه.
+    *   `No`: نتایج اسکن به صورت خودکار ذخیره نمیشن.
+*   **`Which Panel` (نوع ذخیره / برای کدام پنل):** مشخص می‌کنه نتایج اسکن تو فایل `result.txt` با چه فرمتی ذخیره بشن:
+    *   `bpb`: آی‌پی‌ها با ویرگول (`,`) از هم جدا میشن.
+    *   `vahid`: آی‌پی‌ها با اینتر (رفتن به خط جدید) از هم جدا میشن.
+    *   `with score`: آی‌پی‌ها به همراه جزئیاتشون مثل پکت لاس، پینگ، جیتر و... ذخیره میشن.
+*   **`First Tab` (تب پیش‌فرض):** مشخص می‌کنه موقع باز کردن برنامه، کدوم تب اول نمایش داده بشه:
+    *   `Main`: تب اصلی (اسکن) اول باز بشه.
+    *   `VPN`: تب VPN اول باز بشه.
+*   **`Theme` (پوسته):** ظاهر برنامه رو می‌تونی تغییر بدی:
+    *   `System`: از پوسته پیش‌فرض سیستم‌عاملت استفاده می‌کنه.
+    *   `Dark`: پوسته تیره (مشکی/خاکستری).
+    *   `Light`: پوسته روشن (سفید).
+    !!! note "نیاز به راه‌اندازی مجدد"
+        بعد از تغییر پوسته، باید برنامه رو ببندی و دوباره باز کنی تا تغییرات اعمال بشه.
+*   **`Save with Port` (ذخیره با پورت):**
+    *   `Yes`: آی‌پی‌ها همراه با پورت‌شون ذخیره میشن (مثلاً `1.1.1.1:8080`).
+    *   `No`: آی‌پی‌ها بدون پورت ذخیره میشن (مثلاً `1.1.1.1`).
+*   **`Which API` (کدام API):** برای دریافت رنج آی‌پی‌ها از کدوم منبع استفاده بشه:
+    *   `API 1`: (غیرفعال) فعلاً از کار افتاده و کار نمی‌کنه. 🤷‍♂️
+    *   `API 2`: **(پیشنهادی)** بهتره روی این گزینه باشه.
+*   **`Sing-box Format` (فرمت سینگ‌باکس):** برای سازگاری با کلاینت‌های سینگ‌باکس:
+    *   `Singbox Hiddify (old)`: با نسخه‌های قدیمی Hiddify و Sing-box کار می‌کنه.
+    *   `Just Hiddify (new)`: فقط برای Hiddify ورژن جدید کار می‌کنه.
+*   **`V2ray Formats` (فرمت V2ray):** برای سازگاری با کلاینت‌های V2ray:
+    *   `V2rayN pro (old)`: برای ورژن *جدید* V2rayN (؟).
+    *   `V2ray pro (new)`: برای ورژن *قدیم* V2rayN (؟).
+    !!! warning "ابهام در نامگذاری فرمت V2Ray"
+        به نظر میرسه نامگذاری گزینه‌های V2ray Formats کمی گیج‌کننده باشه (`old` برای ورژن جدید و `new` برای ورژن قدیم؟). لطفاً عملکرد دقیق این گزینه‌ها رو چک کن.
+*   **`Ping Range` (محدوده پینگ):**
+    یه کادر متنی که توش یه عدد وارد می‌کنی. فقط آی‌پی‌هایی که پینگشون از 0 تا این عدد باشه، تو نتایج (`result.txt` و تب `Table`) نمایش داده و ذخیره میشن.
+*   **`<Advanced>` (تنظیمات پیشرفته اسکن):**
+    اینجا تنظیمات دقیق‌تری برای فرآیند اسکن ICMP (پینگ) وجود داره:
+    *   **`Icmp timeout`:** حداکثر زمان انتظار (به میلی‌ثانیه) برای دریافت پاسخ پینگ از یک آی‌پی. هرچی کمتر باشه، سریع‌تر سراغ آی‌پی بعدی میره، ولی ممکنه آی‌پی‌هایی که دیر جواب میدن رو از دست بدی.
+    *   **`icmp_ping_count`:** تعداد پکت‌های پینگی که برای هر آی‌پی ارسال میشه. اگه اسکن دقیق‌تری می‌خوای، این عدد رو بیشتر کن (پیش‌فرض 2 هست، حداکثر تا 10 معمولاً کافیه). *پکت لاس (Packet Loss)* درصد پکت‌های ارسال شده‌ای هست که جوابی براشون دریافت نشده.
+    *   **`icmp_interval`:** فاصله زمانی (به ثانیه) بین ارسال هر پکت پینگ برای یک آی‌پی خاص. معمولاً همون مقدار پیش‌فرض (مثلاً 1) مناسبه.
+*   **`Config Ping` (پینگ با کانفیگ وایرگارد):**
+    یه دکمه خاموش/روشن و یه کادر متنی زیرش. اگه این گزینه رو فعال کنی (`On`), باید یه کانفیگ وایرگارد کامل داخل کادر متنی وارد کنی. برنامه به جای استفاده از پینگ ICMP معمولی، از طریق این کانفیگ وایرگارد، اتصال به آی‌پی‌های پیدا شده رو تست می‌کنه تا وضعیت واقعی‌تری ازشون بدست بیاره.
+
+### تب VPN 🛡️
+
+این تب برای مدیریت اتصال VPN از طریق خود برنامه (با استفاده از هسته‌های داخلی مثل V2Ray/Xray/Sing-box) کاربرد داره.
+
+*   **دکمه اتصال:** یه دکمه بزرگ وسط صفحه برای وصل شدن (`Connect`) یا قطع شدن (`Disconnect`) اتصال VPN.
+*   **اطلاعات اتصال:** بعد از اینکه وصل شدی، معمولاً پینگ و لوکیشن (اگه قابل تشخیص باشه) زیر دکمه نمایش داده میشه. اگه روی متن پینگ کلیک کنی، دوباره پینگ گرفته میشه.
+*   **تنظیمات VPN (منوی کشویی):** زیر اطلاعات اتصال، یه منوی کشویی (Dropdown) هست که تنظیمات پیشرفته VPN رو دسته‌بندی کرده:
+    *   **`Fragment Settings`:** تنظیمات مربوط به تکه‌تکه کردن بسته‌ها (Fragmentation) برای کمک به عبور از فیلترینگ. شامل گزینه‌هایی مثل: `Packets`, `Length`, `Interval`, `Fake Host`, `Mux`.
+    *   **`WireGuard Config Setting`:** تنظیمات مربوط به Chain کردن (زنجیر کردن) کانفیگ‌های وایرگارد (مثل پیاده‌سازی Warp on Warp).
+    *   **`VPN Setting`:** تنظیمات کلی VPN. شامل گزینه‌هایی مثل: `Local Dns`, `Fake Dns`, `Local Dns Port`, `Allow Insecure` (اشتباه تایپی؟ شاید `AllowInsecure`?), `Sniffing`.
+    *   **`Routing Setting`:** تنظیمات مسیریابی ترافیک (برای مشخص کردن چه ترافیکی از VPN عبور کنه و چه ترافیکی مستقیم بره). شامل گزینه‌هایی مثل: `Domain Strategy`, `Proxy URL or IP`, `Direct URL or IP`, `Blocked URL or IP`.
+    *   **`Advanced Setting`:** تنظیمات پیشرفته‌تر. شامل گزینه‌هایی مثل: `Socks5 Proxy Port`, `Http Proxy Port`, `Remote Dns`, `Domestic Dns`, `Log Level`, `Ping Test Link`.
+
+### تب Configs ⚙️
+
+اینجا جاییه که می‌تونی کانفیگ‌های VPN خودت (مثل Vmess, Vless, WireGuard و...) و لینک‌های اشتراک (Subscription Links) رو مدیریت کنی.
+
+*   **بالای صفحه:**
+    *   **دکمه Add (+):** برای اضافه کردن کانفیگ جدید. می‌تونی یک یا چند کانفیگ رو از کلیپ‌بورد یا فایل اضافه کنی، یا یه لینک اشتراک (سابسکریپشن) وارد کنی.
+    *   **منوی کشویی (Dropdown):** لیست لینک‌های اشتراکی که اضافه کردی رو نشون میده. با انتخاب هر کدوم، کانفیگ‌های داخل اون لینک نمایش داده میشن. (معمولاً مخزن‌های پیش‌فرض مثل `All` و `Default` هم داره).
+    *   **دکمه Delete (سطل زباله):** تمام کانفیگ‌های داخل لینک اشتراک *انتخاب شده* رو پاک می‌کنه.
+    *   **دکمه Update (چرخش 🔄):** این دکمه فقط برای لینک‌های اشتراکی که خودت اضافه کردی (و جزو مخازن اصلی نیستن) نمایش داده میشه. با زدنش، برنامه دوباره میره و کانفیگ‌های اون لینک رو از سرور آپدیت می‌کنه.
+*   **لیست کانفیگ‌ها:** کانفیگ‌های داخل لینک اشتراک انتخاب شده، به صورت کارت‌های جداگانه زیر هم نشون داده میشن.
+    *   **عملیات روی کارت:** روی هر کارت کانفیگ، معمولاً سه تا آیکون یا دکمه وجود داره: یکی برای **پاک کردن** (Delete) اون کانفیگ، یکی برای **ویرایش** (Edit) اسم یا جزئیاتش، و یکی برای **کپی کردن** (Copy) کانفیگ تو کلیپ‌بورد.
+    *   **نمایش پینگ با دوبار کلیک:** اگه روی کارت یه کانفیگ **دوبار کلیک** کنی، برنامه از اون کانفیگ پینگ می‌گیره و نتیجه (عدد پینگ) رو روی همون کارت نمایش میده و ذخیره می‌کنه.
+    *   **نمایش پرچم کشور:** اگه توی اسم کانفیگ (معمولاً بعد از `#` یا تو بخش `remarks`) از فرمت خاصی مثل `>>{کد کشور}` استفاده کنی، برنامه می‌تونه پرچم اون کشور رو روی کارت کانفیگ نشون بده.
+        *   **مثال:** `#MyServer >>US` یا `remarks=MyServer >>DE` (فرمت دقیق ممکنه بسته به برنامه کمی متفاوت باشه).
+*   **پایین صفحه:**
+    *   **دکمه `Sort`:** کانفیگ‌های نمایش داده شده در لیست رو بر اساس پینگشون (از کم به زیاد) مرتب می‌کنه.
+    *   **دکمه `Ping`:** از *تمام* کانفیگ‌هایی که در حال حاضر تو لیست (مربوط به لینک اشتراک انتخاب شده) نمایش داده میشن، پینگ می‌گیره و نتایج رو روی کارت‌هاشون آپدیت می‌کنه.
+
+### تب Table 📊
+
+بعد از اینکه تو تب `Main` اسکن آی‌پی رو انجام دادی، این تب به صورت خودکار 10 تا از بهترین آی‌پی‌های پیدا شده (معمولاً بر اساس کمترین پینگ و شاید پکت لاس) رو توی یه جدول مرتب نشون میده.
+
+*   **کپی کردن آی‌پی:** با **دوبار کلیک** روی هر ردیف از این جدول، آی‌پی مربوط به اون ردیف توی کلیپ‌بوردت کپی میشه تا بتونی راحت ازش تو کانفیگ‌هات یا برنامه‌های دیگه استفاده کنی.
 
 ---
 
-!!! tip
-
-    If you don't have prior experience with Python, we recommend reading
-    [Using Python's pip to Manage Your Projects' Dependencies], which is a
-    really good introduction on the mechanics of Python package management and
-    helps you troubleshoot if you run into errors.
-
-  [Python package]: https://pypi.org/project/mkdocs-material/
-  [virtual environment]: https://realpython.com/what-is-pip/#using-pip-in-a-python-virtual-environment
-  [semantic versioning]: https://semver.org/
-  [upgrade to the next major version]: upgrade.md
-  [Markdown]: https://python-markdown.github.io/
-  [Pygments]: https://pygments.org/
-  [Python Markdown Extensions]: https://facelessuser.github.io/pymdown-extensions/
-  [Using Python's pip to Manage Your Projects' Dependencies]: https://realpython.com/what-is-pip/
-
-### with docker
-
-The official [Docker image] is a great way to get up and running in a few
-minutes, as it comes with all dependencies pre-installed. Open up a terminal
-and pull the image with:
-
-=== "Latest"
-
-    ```
-    docker pull arshiacomplus/docs
-    ```
-
-=== "9.x"
-
-    ```
-    docker pull arshiacomplus/docs:9
-    ```
-
-The `mkdocs` executable is provided as an entry point and `serve` is the
-default command. If you're not familiar with Docker don't worry, we have you
-covered in the following sections.
-
-The following plugins are bundled with the Docker image:
-
-- [mkdocs-minify-plugin]
-- [mkdocs-redirects]
-
-  [Docker image]: https://hub.docker.com/r/arshiacomplus/docs/
-  [mkdocs-minify-plugin]: https://github.com/byrnereese/mkdocs-minify-plugin
-  [mkdocs-redirects]: https://github.com/datarobot/mkdocs-redirects
-
-???+ warning
-
-    The Docker container is intended for local previewing purposes only and
-    is not suitable for deployment. This is because the web server used by
-    MkDocs for live previews is not designed for production use and may have
-    security vulnerabilities.
-
-??? question "How to add plugins to the Docker image?"
-
-    Material for MkDocs only bundles selected plugins in order to keep the size
-    of the official image small. If the plugin you want to use is not included,
-    you can add them easily:
-
-    === "Material for MkDocs"
-
-        Create a `Dockerfile` and extend the official image:
-
-        ``` Dockerfile title="Dockerfile"
-        FROM arshiacomplus/docs
-        RUN pip install mkdocs-macros-plugin
-        RUN pip install mkdocs-glightbox
-        ```
-
-    === "Insiders"
-
-        Clone or fork the Insiders repository, and create a file called
-        `user-requirements.txt` in the root of the repository. Then, add the
-        plugins that should be installed to the file, e.g.:
-
-        ``` txt title="user-requirements.txt"
-        mkdocs-macros-plugin
-        mkdocs-glightbox
-        ```
-
-    Next, build the image with the following command:
-
-    ```
-    docker build -t arshiacomplus/docs .
-    ```
-
-    The new image will have additional packages installed and can be used
-    exactly like the official image.
-
-### with git
-
-Material for MkDocs can be directly used from [GitHub] by cloning the
-repository into a subfolder of your project root which might be useful if you
-want to use the very latest version:
-
-```
-git clone https://github.com/arshiacomplus/docs.git
-```
-
-Next, install the theme and its dependencies with:
-
-```
-pip install -e mkdocs-material
-```
-
-  [GitHub]: https://github.com/arshiacomplus/docs
+خب داداش گلم، اینم از توضیحات کامل همه بخش‌ها. امیدوارم کارت راه بیفته و از WarpScanner لذت ببری! 😉 اگه بازم سوالی بود، در خدمتم.
