@@ -288,11 +288,6 @@ matches the new structure:
                <div class="md-content" data-md-component="content">
                  <article class="md-content__inner md-typeset">
                    {% block content %}
-    -                {% if page.edit_url %}
-    -                  <a href="{{ page.edit_url }}" title="{{ lang.t('edit.link.title') }}" class="md-content__button md-icon">
-    -                    {% include ".icons/material/pencil.svg" %}
-    -                  </a>
-    -                {% endif %}
     -                {% if not "\x3ch1" in page.content %}
     -                  <h1>{{ page.title | d(config.site_name, true)}}</h1>
     -                {% endif %}
@@ -404,16 +399,6 @@ matches the new structure:
                    {% block content %}
     -
     -                <!-- Edit button -->
-    -                {% if page.edit_url %}
-    -                  <a
-    -                    href="{{ page.edit_url }}"
-    -                    title="{{ lang.t('edit.link.title') }}"
-    -                    class="md-content__button md-icon"
-    -                  >
-    -                    {% include ".icons/material/pencil.svg" %}
-    -                  </a>
-    -                {% endif %}
-    -
     -                <!--
     -                  Hack: check whether the content contains a h1 headline. If it
     -                  doesn't, the page title (or respectively site name) is used
@@ -1389,11 +1374,6 @@ matches the new structure:
                  <article class="md-content__inner md-typeset">
                    {% block content %}
                      {% if page.edit_url %}
-    -                  <a href="{{ page.edit_url }}" title="{{ lang.t('edit.link.title') }}" class="md-icon md-content__icon">&#xE3C9;</a>
-    +                  <a href="{{ page.edit_url }}" title="{{ lang.t('edit.link.title') }}" class="md-content__button md-icon">
-    +                    {% include ".icons/material/pencil.svg" %}
-    +                  </a>
-                     {% endif %}
     +                {% block source %}
     +                  {% if page and page.meta and page.meta.source %}
     +                    {% include "partials/source-link.html" %}
