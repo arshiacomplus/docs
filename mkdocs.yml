@@ -99,7 +99,7 @@ extra:
     - icon: fontawesome/solid/paper-plane
       link: mailto:arshiacomplus@gmail.com
     - icon: fontawesome/brands/x-twitter
-      link: https://x.com/x
+      link: https://x.com/arshia_complus
 
 # Extensions
 markdown_extensions:
