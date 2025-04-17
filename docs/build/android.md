@@ -75,7 +75,7 @@
 !git config --global --add safe.directory /root/flutter/3.27.4
 
 # اجرای دستور بیلد Flet (با فرض اینکه از پوشه  اجرا می‌شود)
-!flet build apk /WarpScanner -vv
+!flet build apk /WarpScanner
 ```
 
 !!! note "نکات مهم این مرحله"
@@ -113,7 +113,7 @@
 !git config --global --add safe.directory /root/flutter/3.27.4
 
 # اجرای دوباره دستور بیلد Flet
-!flet build apk /WarpScanner -vv
+!flet build apk /WarpScanner
 ```
 
 !!! info "چرا دوباره همه دستورات؟"
