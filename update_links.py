@@ -7,7 +7,7 @@ from pathlib import Path
 MAIN_REPO = 'arshiacomplus/WarpScanner'
 ANDROID_REPO = 'arshiacomplus/WarpScanner-android-GUI'
 # *** مهم: این مسیر را با دقت بررسی و اصلاح کنید تا به فایل Markdown شما اشاره کند ***
-MARKDOWN_FILE_PATH = Path('docs/setup.md') # مسیر فایل Markdown نسبت به ریشه ریپازیتوری
+MARKDOWN_FILE_PATH = Path('docs/getting-started.md') # مسیر فایل Markdown نسبت به ریشه ریپازیتوری
 
 GITHUB_API_BASE = 'https://api.github.com/repos/'
 LINUX_FALLBACK_VERSION = 'v0.4.1'
