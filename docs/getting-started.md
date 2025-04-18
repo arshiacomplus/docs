@@ -7,62 +7,48 @@
 
 ## دریافت و نصب 📥
 
-اول از همه، برای گرفتن برنامه می‌تونی بری به صفحه **Releases** تو گیت‌هاب پروژه. اونجا همیشه آخرین نسخه‌ها برای پلتفرم‌های مختلف موجوده:
+اول از همه، برای گرفتن برنامه می‌تونی بری به صفحه **Releases** تو گیت‌هاب پروژه. اونجا همیشه آخرین نسخه‌ها (<span style="color: #008000; font-weight: bold;">نسخه: {{ MAIN_LATEST_VERSION }}</span>) برای پلتفرم‌های مختلف موجوده:
 
-*   **صفحه کلی دانلودها:** [https://github.com/arshiacomplus/WarpScanner/releases](https://github.com/arshiacomplus/WarpScanner/releases) (<span id="main-latest-version-info">در حال دریافت آخرین نسخه اصلی...</span>)
+*   **صفحه کلی دانلودها:** [https://github.com/arshiacomplus/WarpScanner/releases](https://github.com/arshiacomplus/WarpScanner/releases)
 
 ### ویندوز 💻
 
-برای ویندوز دو مدل فایل داریم: یکی **پرتابل** (بدون نیاز به نصب) و یکی **نصبی** (Setup).
-
-!!! warning "توجه به نسخه فایل‌ها"
-    لینک‌های مستقیمی که در ادامه می‌بینی، به صورت خودکار به آخرین نسخه (<span id="main-latest-version-warn">...</span>) آپدیت می‌شوند. با این حال، همیشه بهتر است به صفحه اصلی [Releases گیت‌هاب](https://github.com/arshiacomplus/WarpScanner/releases) هم سر بزنید.
+!!! warning "توجه"
+    این لینک‌ها در زمان ساخت سایت به‌روز می‌شوند.
 
 === "نسخه پرتابل (Portable)"
 
-    این نسخه نیاز به نصب نداره. فقط کافیه فایل `.rar` رو دانلود کنی، از حالت فشرده خارجش کنی و فایل اجرایی (`.exe`) رو اجرا کنی.
-
     *   **برای ویندوز 7:**
-        <a id="win7-portable-link" href="#">در حال بارگذاری لینک...</a> (نسخه: <code id="win7-portable-version">...</code>)
+        [`{{ WIN7_PORTABLE_FILENAME }}`]({{ WIN7_PORTABLE_LINK }}) (نسخه: `{{ WIN7_PORTABLE_VERSION }}`)
     *   **برای ویندوز 8 و بالاتر:**
-        <a id="win8-upper-portable-link" href="#">در حال بارگذاری لینک...</a> (نسخه: <code id="win8-upper-portable-version">...</code>)
+        [`{{ WIN8_UPPER_PORTABLE_FILENAME }}`]({{ WIN8_UPPER_PORTABLE_LINK }}) (نسخه: `{{ WIN8_UPPER_PORTABLE_VERSION }}`)
 
 === "نسخه نصبی (Setup)"
 
-    این نسخه مثل برنامه‌های معمولی نصب میشه. فایل `.exe` رو دانلود و اجرا کن و مراحل نصب رو برو جلو.
-
     *   **برای ویندوز 7:**
-        <a id="win7-setup-link" href="#">در حال بارگذاری لینک...</a> (نسخه: <code id="win7-setup-version">...</code>)
+        [`{{ WIN7_SETUP_FILENAME }}`]({{ WIN7_SETUP_LINK }}) (نسخه: `{{ WIN7_SETUP_VERSION }}`)
     *   **برای ویندوز 8 و بالاتر:**
-        <a id="win8-upper-setup-link" href="#">در حال بارگذاری لینک...</a> (نسخه: <code id="win8-upper-setup-version">...</code>)
+        [`{{ WIN8_UPPER_SETUP_FILENAME }}`]({{ WIN8_UPPER_SETUP_LINK }}) (نسخه: `{{ WIN8_UPPER_SETUP_VERSION }}`)
 
 ### لینوکس 🐧
 
-برای لینوکس فعلاً فقط یه نسخه داریم (مربوط به ورژن قدیمی‌تر برنامه).
-
-!!! danger "نیاز به دسترسی روت (Root)"
-    یادت باشه که برای اجرای WarpScanner روی لینوکس، باید با دسترسی روت (`sudo`) اجراش کنی.
-
-!!! note "آخرین نسخه منتشر شده برای لینوکس"
-    این لینک به صورت خودکار به آخرین نسخه موجود در ریلیز اصلی آپدیت می‌شود <span id="linux-latest-version-note">(...)</span>. برای بررسی دقیق‌تر و نسخه‌های قدیمی‌تر به صفحه [Releases گیت‌هاب](https://github.com/arshiacomplus/WarpScanner/releases) مراجعه کن.
+!!! note "نسخه لینوکس"
+    {{ LINUX_NOTE }}
 
 *   **نسخه 64 بیتی:**
-    <a id="linux-64bit-link" href="#">در حال بارگذاری لینک...</a> (نسخه: <code id="linux-64bit-version">...</code>)
+    [`{{ LINUX_FILENAME }}`]({{ LINUX_LINK }}) (نسخه: `{{ LINUX_VERSION }}`)
 
 ### اندروید 📱
 
-یه برنامه جدا با رابط گرافیکی برای اندروید هم داریم.
-
-!!! info "همیشه آخرین نسخه اندروید رو بگیر"
-    لینک مستقیم زیر به صورت خودکار به آخرین نسخه (<span id="android-latest-version-info">...</span>) آپدیت می‌شود.
+!!! info "نسخه اندروید"
+    آخرین نسخه اندروید (<span style="color: #008000; font-weight: bold;">نسخه: {{ ANDROID_LATEST_VERSION }}</span>) را از لینک زیر دریافت کنید.
 
 *   **مخزن اصلی نسخه اندروید:**
     [https://github.com/arshiacomplus/WarpScanner-android-GUI](https://github.com/arshiacomplus/WarpScanner-android-GUI)
 *   **صفحه دانلودهای نسخه اندروید:**
-    [https://github.com/arshiacomplus/WarpScanner-android-GUI/releases](https://github.com/arshiacomplus/WarpScanner-android-GUI/releases) (<span id="android-latest-version-page">در حال دریافت آخرین نسخه اندروید...</span>)
+    [https://github.com/arshiacomplus/WarpScanner-android-GUI/releases](https://github.com/arshiacomplus/WarpScanner-android-GUI/releases)
 *   **لینک دانلود مستقیم آخرین نسخه فعلی:**
-    <a id="android-apk-link" href="#">در حال بارگذاری لینک...</a> (نسخه: <code id="android-apk-version">...</code>)
-
+    [`{{ ANDROID_APK_FILENAME }}`]({{ ANDROID_APK_LINK }}) (نسخه: `{{ ANDROID_APK_VERSION }}`)
 
 ---
 
