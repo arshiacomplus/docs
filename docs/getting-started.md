@@ -7,14 +7,14 @@
 
 ## دریافت و نصب 📥
 
-اول از همه، برای گرفتن برنامه می‌تونی بری به صفحه **Releases** تو گیت‌هاب پروژه. اونجا همیشه آخرین نسخه‌ها (<span style="color: #008000; font-weight: bold;">نسخه: {{ MAIN_LATEST_VERSION }}</span>) برای پلتفرم‌های مختلف موجوده:
+اول از همه، برای گرفتن برنامه می‌تونی بری به صفحه **Releases** تو گیت‌هاب پروژه. اونجا همیشه آخرین نسخه‌ها (<span style="color: #008000; font-weight: bold;">نسخه اصلی: {{ MAIN_LATEST_VERSION }}</span>) برای پلتفرم‌های مختلف موجوده:
 
 *   **صفحه کلی دانلودها:** [https://github.com/arshiacomplus/WarpScanner/releases](https://github.com/arshiacomplus/WarpScanner/releases)
 
 ### ویندوز 💻
 
-!!! warning "توجه"
-    این لینک‌ها در زمان ساخت سایت به‌روز می‌شوند.
+!!! warning "توجه به نسخه فایل‌ها"
+    لینک‌های زیر به صورت خودکار در زمان ساخت سایت به‌روز می‌شوند و به آخرین نسخه اشاره خواهند داشت (نسخه فعلی: **{{ MAIN_LATEST_VERSION }}**).
 
 === "نسخه پرتابل (Portable)"
 
@@ -32,16 +32,20 @@
 
 ### لینوکس 🐧
 
-!!! note "نسخه لینوکس"
-    {{ LINUX_NOTE }}
+!!! danger "نیاز به دسترسی روت (Root)"
+    یادت باشه که برای اجرای WarpScanner روی لینوکس، باید با دسترسی روت (`sudo`) اجراش کنی.
+
+!!! note "آخرین نسخه لینوکس"
+    {{ LINUX_NOTE }} <!-- این متن توسط اسکریپت پایتون جایگزین می‌شود -->
+    برای بررسی دقیق‌تر همیشه به صفحه [Releases گیت‌هاب](https://github.com/arshiacomplus/WarpScanner/releases) مراجعه کن.
 
 *   **نسخه 64 بیتی:**
     [`{{ LINUX_FILENAME }}`]({{ LINUX_LINK }}) (نسخه: `{{ LINUX_VERSION }}`)
 
 ### اندروید 📱
 
-!!! info "نسخه اندروید"
-    آخرین نسخه اندروید (<span style="color: #008000; font-weight: bold;">نسخه: {{ ANDROID_LATEST_VERSION }}</span>) را از لینک زیر دریافت کنید.
+!!! info "همیشه آخرین نسخه اندروید رو بگیر"
+    لینک دانلود مستقیم زیر به صورت خودکار به آخرین نسخه اندروید (<span style="color: #008000; font-weight: bold;">{{ ANDROID_LATEST_VERSION }}</span>) آپدیت می‌شود. برای اطمینان به صفحه دانلودهای نسخه اندروید هم سر بزنید.
 
 *   **مخزن اصلی نسخه اندروید:**
     [https://github.com/arshiacomplus/WarpScanner-android-GUI](https://github.com/arshiacomplus/WarpScanner-android-GUI)
