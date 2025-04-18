@@ -7,14 +7,10 @@
 
 ## دریافت و نصب 📥
 
-اول از همه، برای گرفتن برنامه می‌تونی بری به صفحه **Releases** تو گیت‌هاب پروژه. اونجا همیشه آخرین نسخه‌ها (<span style="color: #008000; font-weight: bold;">نسخه اصلی: {{ MAIN_LATEST_VERSION }}</span>) برای پلتفرم‌های مختلف موجوده:
-
-*   **صفحه کلی دانلودها:** [https://github.com/arshiacomplus/WarpScanner/releases](https://github.com/arshiacomplus/WarpScanner/releases)
-
 ### ویندوز 💻
 
 !!! warning "توجه به نسخه فایل‌ها"
-    لینک‌های زیر به صورت خودکار  به‌روز می‌شوند و به آخرین نسخه اشاره خواهند داشت (نسخه فعلی: **{{ MAIN_LATEST_VERSION }}**).
+    لینک‌های مستقیمی که در ادامه می‌بینی، به صورت خودکار به آخرین نسخه (**{{ MAIN_LATEST_VERSION }}**) آپدیت می‌شوند. با این حال، همیشه بهتر است به صفحه اصلی [Releases گیت‌هاب](https://github.com/arshiacomplus/WarpScanner/releases) هم سر بزنید.
 
 === "نسخه پرتابل (Portable)"
 
