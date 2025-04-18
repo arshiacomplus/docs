@@ -9,32 +9,32 @@
 
 اول از همه، برای گرفتن برنامه می‌تونی بری به صفحه **Releases** تو گیت‌هاب پروژه. اونجا همیشه آخرین نسخه‌ها برای پلتفرم‌های مختلف موجوده:
 
-*   **صفحه کلی دانلودها:** [https://github.com/arshiacomplus/WarpScanner/releases](https://github.com/arshiacomplus/WarpScanner/releases)
+*   **صفحه کلی دانلودها:** [https://github.com/arshiacomplus/WarpScanner/releases](https://github.com/arshiacomplus/WarpScanner/releases) (<span id="main-latest-version-info">در حال دریافت آخرین نسخه اصلی...</span>)
 
 ### ویندوز 💻
 
 برای ویندوز دو مدل فایل داریم: یکی **پرتابل** (بدون نیاز به نصب) و یکی **نصبی** (Setup).
 
 !!! warning "توجه به نسخه فایل‌ها"
-    لینک‌های مستقیمی که در ادامه می‌بینی، مربوط به **نسخه v0.5.1** هستن. برای اینکه همیشه جدیدترین نسخه با آخرین امکانات و رفع باگ‌ها رو داشته باشی، **حتماً به صفحه اصلی [Releases گیت‌هاب](https://github.com/arshiacomplus/WarpScanner/releases) سر بزن** و آخرین نسخه رو از اونجا دانلود کن. این لینک‌ها به صورت خودکار آپدیت *نمی‌شن*.
+    لینک‌های مستقیمی که در ادامه می‌بینی، به صورت خودکار به آخرین نسخه (<span id="main-latest-version-warn">...</span>) آپدیت می‌شوند. با این حال، همیشه بهتر است به صفحه اصلی [Releases گیت‌هاب](https://github.com/arshiacomplus/WarpScanner/releases) هم سر بزنید.
 
 === "نسخه پرتابل (Portable)"
 
     این نسخه نیاز به نصب نداره. فقط کافیه فایل `.rar` رو دانلود کنی، از حالت فشرده خارجش کنی و فایل اجرایی (`.exe`) رو اجرا کنی.
 
     *   **برای ویندوز 7:**
-        [`WarpScanner-v0.5.1-win7-Portable.rar`](https://github.com/arshiacomplus/WarpScanner/releases/download/v0.5.1/WarpScanner-v0.5.1-win7-Portable.rar)
+        <a id="win7-portable-link" href="#">در حال بارگذاری لینک...</a> (نسخه: <code id="win7-portable-version">...</code>)
     *   **برای ویندوز 8 و بالاتر:**
-        [`WarpScanner-v0.5.1-win8-upper-Portable.rar`](https://github.com/arshiacomplus/WarpScanner/releases/download/v0.5.1/WarpScanner-v0.5.1-win8-upper-Portable.rar)
+        <a id="win8-upper-portable-link" href="#">در حال بارگذاری لینک...</a> (نسخه: <code id="win8-upper-portable-version">...</code>)
 
 === "نسخه نصبی (Setup)"
 
     این نسخه مثل برنامه‌های معمولی نصب میشه. فایل `.exe` رو دانلود و اجرا کن و مراحل نصب رو برو جلو.
 
     *   **برای ویندوز 7:**
-        [`WarpScanner-v0.5.1-win7-Setup.exe`](https://github.com/arshiacomplus/WarpScanner/releases/download/v0.5.1/WarpScanner-v0.5.1-win7-Setup.exe)
+        <a id="win7-setup-link" href="#">در حال بارگذاری لینک...</a> (نسخه: <code id="win7-setup-version">...</code>)
     *   **برای ویندوز 8 و بالاتر:**
-        [`WarpScanner-v0.5.1-win8-upper-Setup.exe`](https://github.com/arshiacomplus/WarpScanner/releases/download/v0.5.1/WarpScanner-v0.5.1-win8-upper-Setup.exe)
+        <a id="win8-upper-setup-link" href="#">در حال بارگذاری لینک...</a> (نسخه: <code id="win8-upper-setup-version">...</code>)
 
 ### لینوکس 🐧
 
@@ -44,24 +44,25 @@
     یادت باشه که برای اجرای WarpScanner روی لینوکس، باید با دسترسی روت (`sudo`) اجراش کنی.
 
 !!! note "آخرین نسخه منتشر شده برای لینوکس"
-    این لینک مربوط به **نسخه v0.4.1** هست. برای بررسی نسخه‌های جدیدتر (اگر منتشر شده باشن)، به صفحه [Releases گیت‌هاب](https://github.com/arshiacomplus/WarpScanner/releases) مراجعه کن.
+    این لینک به صورت خودکار به آخرین نسخه موجود در ریلیز اصلی آپدیت می‌شود <span id="linux-latest-version-note">(...)</span>. برای بررسی دقیق‌تر و نسخه‌های قدیمی‌تر به صفحه [Releases گیت‌هاب](https://github.com/arshiacomplus/WarpScanner/releases) مراجعه کن.
 
 *   **نسخه 64 بیتی:**
-    [`WarpScanner-v0.4.1-linux-64bit.tar.gz`](https://github.com/arshiacomplus/WarpScanner/releases/download/v0.4.1/WarpScanner-v0.4.1-linux-64bit.tar.gz)
+    <a id="linux-64bit-link" href="#">در حال بارگذاری لینک...</a> (نسخه: <code id="linux-64bit-version">...</code>)
 
 ### اندروید 📱
 
 یه برنامه جدا با رابط گرافیکی برای اندروید هم داریم.
 
 !!! info "همیشه آخرین نسخه اندروید رو بگیر"
-    لینک مستقیم زیر مربوط به **نسخه v0.1.2** هست. برای دانلود جدیدترین ورژن، همیشه به مخزن اصلی نسخه اندروید سر بزن.
+    لینک مستقیم زیر به صورت خودکار به آخرین نسخه (<span id="android-latest-version-info">...</span>) آپدیت می‌شود.
 
 *   **مخزن اصلی نسخه اندروید:**
     [https://github.com/arshiacomplus/WarpScanner-android-GUI](https://github.com/arshiacomplus/WarpScanner-android-GUI)
 *   **صفحه دانلودهای نسخه اندروید:**
-    [https://github.com/arshiacomplus/WarpScanner-android-GUI/releases](https://github.com/arshiacomplus/WarpScanner-android-GUI/releases)
-*   **لینک دانلود مستقیم آخرین نسخه فعلی (v0.1.2):**
-    [`WarpScanner_v0.1.2.apk`](https://github.com/arshiacomplus/WarpScanner-android-GUI/releases/download/v0.1.2/WarpScanner_v0.1.2.apk)
+    [https://github.com/arshiacomplus/WarpScanner-android-GUI/releases](https://github.com/arshiacomplus/WarpScanner-android-GUI/releases) (<span id="android-latest-version-page">در حال دریافت آخرین نسخه اندروید...</span>)
+*   **لینک دانلود مستقیم آخرین نسخه فعلی:**
+    <a id="android-apk-link" href="#">در حال بارگذاری لینک...</a> (نسخه: <code id="android-apk-version">...</code>)
+
 
 ---
 
