@@ -67,8 +67,6 @@ theme:
   favicon: assets/favicon.png
   icon:
     logo: logo
-extra_javascript:
-  - js/update-release-links.js
 # Plugins
 plugins:
   - blog
