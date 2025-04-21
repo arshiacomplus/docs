@@ -36,11 +36,11 @@
 
 *   **نصب سریع با اسکریپت (تحت ترمینال):**
     این ساده‌ترین راه برای نصب روی اکثر توزیع‌های لینوکسه. ترمینال رو باز کن و دستور زیر رو بزن:
-    ```bash
-    bash <(curl -fsSL https://raw.githubusercontent.com/arshiacomplus/WarpScanner/main/install.sh)
-    ```
-    !!! info "چیکار می‌کنه این دستور؟"
-        این دستور اسکریپت نصب رو از گیت‌هاب دانلود می‌کنه و بلافاصله اجراش می‌کنه تا WarpScanner رو برات نصب کنه.
+```bash
+bash <(curl -fsSL https://raw.githubusercontent.com/arshiacomplus/WarpScanner/main/install.sh)
+```
+!!! info "چیکار می‌کنه این دستور؟"
+    این دستور اسکریپت نصب رو از گیت‌هاب دانلود می‌کنه و بلافاصله اجراش می‌کنه تا WarpScanner رو برات نصب کنه.
 
 !!! note "آخرین نسخه لینوکس"
     {{ LINUX_NOTE }} <!-- این متن توسط اسکریپت پایتون جایگزین می‌شود -->
