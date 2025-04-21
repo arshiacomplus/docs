@@ -2,5 +2,5 @@
 
 https://arshiacomplus.github.io/docs/getting-started/
 
-## ریپو اصلی
-https://arshiacomplus.github.io/WarpScanner/
+## ریپو اصلی[
+https://github.com/arshiacomplus/WarpScanner
