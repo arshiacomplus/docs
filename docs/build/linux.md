@@ -44,10 +44,9 @@
     ```bash
     pip3 install requests customtkinter icmplib retrying pyperclip PyYAML Pillow cryptography
     ```
-    !!! info " استفاده از `requirements.txt` "
+!!! info " استفاده از `requirements.txt` "
     اگر فایل `requirements.txt` در کنار سورس کد وجود دارد، می‌توانید تمام نیازمندی‌ها را با دستور زیر نصب کنید:
     `pip3 install -r requirements.txt`
-
 4.  **آماده‌سازی پوشه پروژه:**
     *   با دستور `cd` وارد مسیری شوید که فایل اصلی پایتون برنامه (`warpscanner-v4.1.0.py`) در آن قرار دارد:
         ```bash
