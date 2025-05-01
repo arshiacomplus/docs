@@ -20,7 +20,8 @@
       display: none;
     }
   }
-  a.custom-button {
+
+  .button {
     position: relative;
     width: 120px;
     height: 40px;
@@ -35,11 +36,10 @@
     gap: 12px;
     border-radius: 8px;
     cursor: pointer;
-    text-decoration: none;
     font-family: inherit;
   }
 
-  a.custom-button::before {
+  .button::before {
     content: '';
     position: absolute;
     inset: 0;
@@ -55,7 +55,7 @@
     transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   }
 
-  a.custom-button::after {
+  .button::after {
     content: '';
     z-index: -1;
     position: absolute;
@@ -65,15 +65,15 @@
     filter: blur(20px);
   }
 
-  a.custom-button:hover::after {
+  .button:hover::after {
     filter: blur(30px);
   }
 
-  a.custom-button:hover::before {
+  .button:hover::before {
     transform: rotate(-180deg);
   }
 
-  a.custom-button:active::before {
+  .button:active::before {
     scale: 0.7;
   }
 </style>
@@ -93,15 +93,16 @@
         <h1>Warp Scanner</h1>
         <h2>VPN متن‌باز، اسکنر دقیق، اتصال ایمن</h2>
         <p>{{ config.site_description }}</p>
-        <a
-          href="{{ page.next_page.url | url }}"
-          title="{{ page.next_page.title | e }}"
-          class="custom-button"
-        >
+        <button class="button" onclick="window.location.href='{{ page.next_page.url | url }}'">
           شروع سریع
-        </a>
+        </button>
       </div>
     </div>
   </div>
 </section>
+<script>
+  document.querySelector('.button').addEventListener('click', function() {
+    window.location.href = '{{ page.next_page.url | url }}';
+  });
+</script>
 {% endblock %} {% block content %}{% endblock %} {% block footer %}{% endblock %}
