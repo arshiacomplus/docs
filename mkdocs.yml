@@ -5,11 +5,11 @@ site_description: >-
   WarpScanner همه‌چیز رو خودش هندل می‌کنه؛ از IP تا تنظیمات WireGuard.
 
 # Repository
-repo_name: arshiacomplus/WarpScanner
+repo_name: WarpScanner
 repo_url: https://github.com/arshiacomplus/WarpScanner
 
 # Copyright
-copyright: Copyright &copy; 2016 - 2025 arshiacomplus
+copyright: Copyright &copy; 2025 arshiacomplus, Inc.
 
 # Configuration
 theme:
@@ -17,13 +17,10 @@ theme:
   custom_dir: material/overrides
   language: fa
   features:
-    - announce.dismiss
     - content.code.annotate
     - content.code.copy
     - content.code.select
     - content.footnote.tooltips
-    - content.tabs.link
-    - content.tooltips
     - header.autohide
     - navigation.expand
     - navigation.footer
@@ -31,36 +28,23 @@ theme:
     - navigation.instant
     - navigation.instant.prefetch
     - navigation.instant.progress
-    - navigation.prune
-    - navigation.sections
     - navigation.tabs
     - navigation.tabs.sticky
-    - navigation.top
-    - navigation.tracking
     - search.highlight
-    - search.share
     - search.suggest
-    - toc.follow
-    # - toc.integrate
   palette:
-    - media: "(prefers-color-scheme)"
-      toggle:
-        icon: material/link
-        name: Switch to light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: indigo
-      accent: indigo
+      accent: purple
       toggle:
-        icon: material/toggle-switch
+        icon: material/weather-sunny
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: black
-      accent: indigo
       toggle:
-        icon: material/toggle-switch-off
-        name: Switch to system preference
+        icon: material/weather-night
+        name: Switch to light mode
   font:
     text: Roboto
     code: Roboto Mono
@@ -95,7 +79,7 @@ extra:
       link: https://t.me/arshia_mod_fun
     - icon: fontawesome/brands/youtube
       link: https://www.youtube.com/@arshiacomplus_official
-    - icon: fontawesome/solid/paper-plane
+    - icon: fontawesome/solid/envelope
       link: mailto:arshiacomplus@gmail.com
     - icon: fontawesome/brands/x-twitter
       link: https://x.com/x
@@ -155,12 +139,12 @@ not_in_nav: |
 
 # Page tree
 nav:
-  - صفحه اصلی: index.md
-  - توضیحات:
-    - نصب و راه‌اندازی: getting-started.md
+  - صفحـه اصلی: index.md
+  - توضیـحات:
+    - نصـب و راه‌اندازی: getting-started.md
     - لایسنس: license.md
   - بیلد گرفتن:
-      - توضیح کلی: build.md
-      - نسخه ویندوز: build/windows.md
-      - نسخه لینوکس: build/linux.md
-      - نسخه اندروید: build/android.md
+      - توضیحات بیشتر: build.md
+      - نســخه وینــدوز: build/windows.md
+      - نســخه لینوکس: build/linux.md
+      - نســخه اندرویـد: build/android.md
