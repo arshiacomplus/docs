@@ -21,25 +21,26 @@
     }
   }
 
-  .custom-button {
+  a.custom-button {
     position: relative;
     width: 120px;
     height: 40px;
-    background-color: #000;
-    display: flex;
-    align-items: center;
-    color: white;
-    flex-direction: column;
-    justify-content: center;
-    border: none;
-    padding: 12px;
-    gap: 12px;
-    border-radius: 8px;
-    cursor: pointer;
-    text-decoration: none;
+    background-color: #000 !important;
+    display: flex !important;
+    align-items: center !important;
+    color: white !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    border: none !important;
+    padding: 12px !important;
+    gap: 12px !important;
+    border-radius: 8px !important;
+    cursor: pointer !important;
+    text-decoration: none !important;
+    font-family: inherit;
   }
 
-  .custom-button::before {
+  a.custom-button::before {
     content: '';
     position: absolute;
     inset: 0;
@@ -49,37 +50,37 @@
     width: 128px;
     height: 48px;
     border-radius: 10px;
-    background: linear-gradient(-45deg, #e81cff 0%, #40c9ff 100%);
+    background: linear-gradient(-45deg, #e81cff 0%, #40c9ff 100%) !important;
     z-index: -10;
     pointer-events: none;
     transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   }
 
-  .custom-button::after {
+  a.custom-button::after {
     content: '';
     z-index: -1;
     position: absolute;
     inset: 0;
-    background: linear-gradient(-45deg, #fc00ff 0%, #00dbde 100%);
+    background: linear-gradient(-45deg, #fc00ff 0%, #00dbde 100%) !important;
     transform: translate3d(0, 0, 0) scale(0.95);
     filter: blur(20px);
   }
 
-  .custom-button:hover::after {
+  a.custom-button:hover::after {
     filter: blur(30px);
   }
 
-  .custom-button:hover::before {
+  a.custom-button:hover::before {
     transform: rotate(-180deg);
   }
 
-  .custom-button:active::before {
+  a.custom-button:active::before {
     scale: 0.7;
   }
 </style>
 <section class="mdx-container">
   <div class="md-grid md-typeset">
-    <div class="mdx-hero" dir="rtl">
+    <div class="mdx-hero" dir="ltr">
       <div class="mdx-hero__image">
         <img
           src="assets/images/illustration.png"
@@ -89,14 +90,14 @@
           draggable="false"
         />
       </div>
-      <div class="mdx-hero__content" dir="rtl">
+      <div class="mdx-hero__content" dir="ltr">
         <h1>Warp Scanner</h1>
         <h2>VPN متن‌باز، اسکنر دقیق، اتصال ایمن</h2>
         <p>{{ config.site_description }}</p>
         <a
           href="{{ page.next_page.url | url }}"
           title="{{ page.next_page.title | e }}"
-          class="md-button md-button--primary custom-button"
+          class="custom-button"
         >
           شروع سریع
         </a>
