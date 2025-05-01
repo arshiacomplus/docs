@@ -2,14 +2,14 @@ site_name: Docs
 site_url: "https://arshiacomplus.github.io/docs/"
 site_author: ArshiaComplus
 site_description: >-
-  WarpScanner همه‌چیز رو خودش هندل می‌کنه؛ از IP تا تنظیمات WireGuard.
-
+  این اسکنر همه چیز رو خودش هندل می‌کنه، از اسکن آی‌پی گرفته تا تنظیمات بهینه وایرگارد متناسب با شرایط اینترنت
+  
 # Repository
 repo_name: WarpScanner
 repo_url: https://github.com/arshiacomplus/WarpScanner
 
 # Copyright
-copyright: Copyright &copy; 2025 arshiacomplus, Inc.
+copyright: Copyright &copy; 2025 arshiacomplus, Inc
 
 # Configuration
 theme:
@@ -33,18 +33,21 @@ theme:
     - search.highlight
     - search.suggest
   palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      accent: purple
+    - media: "(prefers-color-scheme)"
       toggle:
         icon: material/weather-sunny
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-night
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: black
       toggle:
-        icon: material/weather-night
-        name: Switch to light mode
+        icon: material/weather-partly-cloudy.svg
+        name: Switch to system preference
+        
   font:
     text: Roboto
     code: Roboto Mono
@@ -81,7 +84,7 @@ extra:
       link: https://www.youtube.com/@arshiacomplus_official
     - icon: fontawesome/solid/envelope
       link: mailto:arshiacomplus@gmail.com
-    - icon: fontawesome/brands/x-twitter
+    - icon: fontawesome/brands/square-twitter
       link: https://x.com/x
 
 # Extensions
