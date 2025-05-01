@@ -26,22 +26,19 @@
 
   .custom-hero-button {
     position: relative !important;
-    display: flex !important;
     width: 120px !important;
     height: 40px !important;
     background-color: #000 !important;
+    display: flex !important;
     align-items: center!important;
-    flex-direction: column !important;
     color: white  !important;
+    flex-direction: column !important;
     justify-content: center !important;
     border: none !important;
     padding: 12px !important;
     gap: 12px !important;
     border-radius: 8px !important;
     cursor: pointer !important;
-    box-sizing: border-box !important;
-    vertical-align: middle !important;
-    z-index: 1 !important;
   }
 
   .custom-hero-button::before {
@@ -51,13 +48,13 @@
     left: -4px !important;
     top: -1px !important;
     margin: auto !important;
-    width: calc(100% + 8px) !important;
-    height: calc(100% + 8px) !important;
+    width: 128px !important;
+    height: 48px !important;
     border-radius: 10px !important;
     background: linear-gradient(-45deg, #e81cff 0%, #40c9ff 100% ) !important;
     z-index: -10 !important;
     pointer-events: none !important;
-    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
   }
 
   .custom-hero-button::after {
@@ -68,8 +65,6 @@
     background: linear-gradient(-45deg, #fc00ff 0%, #00dbde 100% ) !important;
     transform: translate3d(0, 0, 0) scale(0.95) !important;
     filter: blur(20px) !important;
-    border-radius: inherit !important;
-    transition: filter 0.2s ease !important;
   }
 
   .custom-hero-button:hover {
@@ -85,7 +80,7 @@
   }
 
   .custom-hero-button:active::before {
-    scale: 0.4 !important;
+    scale: 0.7 !important;
   }
 
 </style>
