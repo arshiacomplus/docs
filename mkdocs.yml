@@ -45,7 +45,7 @@ theme:
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       toggle:
-        icon: material/weather-partly-cloudy.svg
+        icon: material/weather-partly-cloudy
         name: Switch to system preference
         
   font:
