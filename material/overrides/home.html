@@ -27,13 +27,19 @@
     z-index: 9;
     transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
   }
-
-  .animated-button .arr-1 {
-    left: -25%;
+  
+  .animated-button svg {
+    transform: scaleX(-1);
   }
 
+  .animated-button .arr-1 {
+    right: auto;
+    left: 16px; 
+  }
+  
   .animated-button .arr-2 {
-    right: 16px;
+    left: auto;
+    right: -25%;
   }
 
   .animated-button .circle {
@@ -63,11 +69,11 @@
   }
 
   .animated-button:hover .arr-1 {
-    left: 16px;
+    right: -25%;
   }
 
   .animated-button:hover .arr-2 {
-    right: -25%;
+    left: 16px;
   }
 
   .animated-button:hover .text {
@@ -105,22 +111,16 @@
         <h1>Warp Scanner</h1>
         <h2>VPN متن‌باز، اسکنر دقیق، اتصال ایمن</h2>
         <p>{{ config.site_description }}</p>
-        <button
-          class="animated-button"
-          onclick="window.location.href='{{ page.next_page.url | url }}';"
-          title="{{ page.next_page.title | e }}"
-        >
+        <button class="animated-button" 
+                onclick="window.location.href='{{ page.next_page.url | url }}';"
+                title="{{ page.next_page.title | e }}">
           <svg xmlns="http://www.w3.org/2000/svg" class="arr-2" viewBox="0 0 24 24">
-            <path
-              d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
-            ></path>
+            <path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path>
           </svg>
           <span class="text">شروع سریع</span>
           <span class="circle"></span>
           <svg xmlns="http://www.w3.org/2000/svg" class="arr-1" viewBox="0 0 24 24">
-            <path
-              d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
-            ></path>
+            <path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path>
           </svg>
         </button>
       </div>
