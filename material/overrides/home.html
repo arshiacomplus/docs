@@ -1,92 +1,88 @@
 {#- This file was automatically generated - do not edit -#} {% extends "main.html" %} {% block tabs
 %} {{ super() }}
 <style>
-  .animated-button {
-    position: relative;
-    display: inline-flex;
-    align-items: center;
-    gap: 4px;
-    padding: 16px 40px;
-    border: 4px solid transparent;
-    font-size: 16px;
-    background-color: inherit;
-    border-radius: 100px;
-    font-weight: 600;
-    color: white;
-    box-shadow: 0 0 0 2px white;
-    cursor: pointer;
-    overflow: hidden;
-    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  .warp-button {
+      position: relative;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 14px 36px;
+      background: linear-gradient(135deg, #5a68ca, #2c3e8f);
+      color: white;
+      font-size: 18px;
+      font-weight: 600;
+      text-decoration: none;
+      border-radius: 50px;
+      border: 2px solid rgba(255, 255, 255, 0.15);
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2), 
+                  0 2px 5px rgba(0, 0, 0, 0.15), 
+                  inset 0 1px 1px rgba(255, 255, 255, 0.2);
+      transition: all 0.3s ease;
+      overflow: hidden;
+      cursor: pointer;
   }
 
-  .animated-button svg {
-    position: absolute;
-    width: 24px;
-    fill: white;
-    z-index: 9;
-    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
-    transform: scaleX(-1);
+  .warp-button .icon {
+      margin-left: 8px;
+      display: inline-flex;
+      transform: translateX(0);
+      transition: transform 0.3s ease;
   }
 
-  .animated-button .arr-1 {
-    left: 12px; 
+  .warp-button:hover {
+      background: linear-gradient(135deg, #6574e2, #3546a8);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3), 
+                  0 4px 8px rgba(0, 0, 0, 0.2),
+                  inset 0 1px 1px rgba(255, 255, 255, 0.3);
+  }
+
+  .warp-button:hover .icon {
+      transform: translateX(-5px);
+  }
+
+  .warp-button:active {
+      transform: translateY(1px);
+      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2), 
+                  0 1px 3px rgba(0, 0, 0, 0.15),
+                  inset 0 1px 1px rgba(255, 255, 255, 0.1);
+  }
+
+  .warp-button::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 10px;
+      height: 10px;
+      background: rgba(255, 255, 255, 0.5);
+      border-radius: 50%;
+      transform: translate(-50%, -50%) scale(0);
+      opacity: 0;
+      transition: transform 0.6s, opacity 0.6s;
+  }
+
+  .warp-button:hover::after {
+      transform: translate(-50%, -50%) scale(20);
+      opacity: 0;
+  }
+
+  @keyframes rippleEffect {
+      0% {
+          width: 0;
+          height: 0;
+          opacity: 0.5;
+      }
+      100% {
+          width: 200px;
+          height: 200px;
+          opacity: 0;
+      }
   }
   
-  .animated-button .arr-2 {
-    left: 110%;
-  }
-
-  .animated-button .circle {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 20px;
-    height: 20px;
-    background-color: white;
-    border-radius: 50%;
-    opacity: 0;
-    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
-  }
-
-  .animated-button .text {
-    position: relative;
-    z-index: 1;
-    transform: translateX(0);
-    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
-  }
-
-  .animated-button:hover {
-    box-shadow: 0 0 0 12px transparent;
-    color: black;
-    border-radius: 12px;
-  }
-
-  .animated-button:hover .arr-1 {
-    left: 110%;
-  }
-
-  .animated-button:hover .arr-2 {
-    left: 12px;
-  }
-
-  .animated-button:hover .text {
-    transform: translateX(-12px); 
-  }
-
-  .animated-button:hover svg {
-    fill: #212121;
-  }
-
-  .animated-button:active {
-    scale: 0.95;
-    box-shadow: 0 0 0 4px white;
-  }
-
-  .animated-button:active .circle {
-    width: 220px;
-    height: 220px;
-    opacity: 1;
+  .warp-button {
+      position: relative;
+      overflow: hidden;
   }
 </style>
 <section class="mdx-container">
@@ -105,20 +101,48 @@
         <h1>Warp Scanner</h1>
         <h2>VPN متن‌باز، اسکنر دقیق، اتصال ایمن</h2>
         <p>{{ config.site_description }}</p>
-        <button class="animated-button" 
+        <button class="warp-button" 
                 onclick="window.location.href='{{ page.next_page.url | url }}';"
                 title="{{ page.next_page.title | e }}">
-          <svg xmlns="http://www.w3.org/2000/svg" class="arr-2" viewBox="0 0 24 24">
-            <path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path>
-          </svg>
-          <span class="text">شروع سریع</span>
-          <span class="circle"></span>
-          <svg xmlns="http://www.w3.org/2000/svg" class="arr-1" viewBox="0 0 24 24">
-            <path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path>
-          </svg>
+          <span class="icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M19 12H5M5 12L12 19M5 12L12 5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </span>
+          شروع سریع
         </button>
       </div>
     </div>
   </div>
 </section>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('.warp-button').forEach(button => {
+      button.addEventListener('click', function(e) {
+        const ripple = document.createElement('span');
+        ripple.classList.add('ripple');
+        this.appendChild(ripple);
+        
+        const x = e.clientX - e.target.getBoundingClientRect().left;
+        const y = e.clientY - e.target.getBoundingClientRect().top;
+        
+        ripple.style.cssText = `
+            position: absolute;
+            background-color: rgba(255, 255, 255, 0.7);
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+            pointer-events: none;
+            animation: rippleEffect 0.6s linear;
+            left: ${x}px;
+            top: ${y}px;
+        `;
+        
+        setTimeout(() => {
+            ripple.remove();
+        }, 600);
+      });
+    });
+  });
+</script>
 {% endblock %} {% block content %}{% endblock %} {% block footer %}{% endblock %}
