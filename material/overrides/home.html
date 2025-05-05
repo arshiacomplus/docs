@@ -102,7 +102,7 @@
         <h2>VPN متن‌باز، اسکنر دقیق، اتصال ایمن</h2>
         <p>{{ config.site_description }}</p>
         <button class="warp-button" 
-                onclick="window.location.href='{{ page.next_page.url | url }}';"
+                onclick="delayedNavigation('{{ page.next_page.url | url }}');"
                 title="{{ page.next_page.title | e }}">
           <span class="icon">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -117,6 +117,12 @@
 </section>
 
 <script>
+  function delayedNavigation(url) {
+    setTimeout(function() {
+      window.location.href = url;
+    }, 500);
+  }
+
   document.addEventListener('DOMContentLoaded', function() {
     document.querySelectorAll('.warp-button').forEach(button => {
       button.addEventListener('click', function(e) {
