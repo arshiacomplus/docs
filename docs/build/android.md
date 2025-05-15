@@ -72,7 +72,7 @@
 !sudo apt-get update && sudo apt-get install -y ninja-build
 
 # تنظیمات Git (برای جلوگیری از خطای احتمالی safe.directory)
-!git config --global --add safe.directory /root/flutter/3.27.4
+!git config --global --add safe.directory /root/flutter/3.29.2
 
 # اجرای دستور بیلد Flet (با فرض اینکه از پوشه  اجرا می‌شود)
 !flet build apk /WarpScanner
