@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
   schedule:
     # اجرا هر 2 ساعت یکبار (در دقایق 0 ساعات زوج: 0, 2, 4, ..., 22)
-    - cron: '0 */2 * * *'
+    - cron: '0 */8 * * *'
 
 permissions:
   contents: write
