@@ -1,107 +1,154 @@
-{% extends "main.html" %}
-
-{% block tabs %}
-  {{ super() }}
-
-  <!-- 
-    Custom styles for the landing page hero section.
-    We are keeping the beautiful button design you created.
-  -->
-  <style>
-    .mdx-hero__content {
-      padding-top: 2rem;
-    }
-    .hero-buttons {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center; /* Center buttons horizontally */
-      gap: 1rem; /* Space between buttons */
-      margin-top: 1.5rem;
-    }
-    .project-button {
-        position: relative;
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        padding: 14px 32px; /* Slightly adjusted padding */
-        color: white;
-        font-size: 1rem; /* Standardized font size */
-        font-weight: 600;
-        text-decoration: none;
-        border-radius: 50px;
-        border: 2px solid rgba(255, 255, 255, 0.15);
-        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2), 
-                    0 2px 5px rgba(0, 0, 0, 0.15), 
-                    inset 0 1px 1px rgba(255, 255, 255, 0.2);
-        transition: all 0.3s ease;
-        overflow: hidden;
-        cursor: pointer;
-    }
-    .project-button--primary {
-      background: linear-gradient(135deg, #00BFA5, #00897B);
-    }
-    .project-button--secondary {
+{#- This file was automatically generated - do not edit -#} {% extends "main.html" %} {% block tabs
+%} {{ super() }}
+<style>
+  .warp-button {
+      position: relative;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 14px 36px;
       background: linear-gradient(135deg, #5a68ca, #2c3e8f);
-    }
-    .project-button .icon {
-        margin-right: 10px;
-        display: inline-flex;
-        transition: transform 0.3s ease;
-    }
-    .project-button:hover {
-        transform: translateY(-3px);
-        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3), 
-                    0 4px 8px rgba(0, 0, 0, 0.2),
-                    inset 0 1px 1px rgba(255, 255, 255, 0.3);
-    }
-    .project-button:hover.project-button--primary {
-      background: linear-gradient(135deg, #1DE9B6, #009688);
-    }
-    .project-button:hover.project-button--secondary {
+      color: white;
+      font-size: 18px;
+      font-weight: 600;
+      text-decoration: none;
+      border-radius: 50px;
+      border: 2px solid rgba(255, 255, 255, 0.15);
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2), 
+                  0 2px 5px rgba(0, 0, 0, 0.15), 
+                  inset 0 1px 1px rgba(255, 255, 255, 0.2);
+      transition: all 0.3s ease;
+      overflow: hidden;
+      cursor: pointer;
+  }
+
+  .warp-button .icon {
+      margin-left: 8px;
+      display: inline-flex;
+      transform: translateX(0);
+      transition: transform 0.3s ease;
+  }
+
+  .warp-button:hover {
       background: linear-gradient(135deg, #6574e2, #3546a8);
-    }
-    .project-button:active {
-        transform: translateY(1px);
-        box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
-    }
-  </style>
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3), 
+                  0 4px 8px rgba(0, 0, 0, 0.2),
+                  inset 0 1px 1px rgba(255, 255, 255, 0.3);
+  }
 
-  <section class="mdx-container">
-    <div class="md-grid md-typeset">
-      <div class="mdx-hero">
-        <div class="mdx-hero__image">
-          <img
-            src="assets/images/illustration.png" <!-- Ensure this image exists in docs/assets/images -->
-            alt="Project Illustration"
-            width="1659"
-            height="1200"
-            draggable="false"
-          />
-        </div>
-        <div class="mdx-hero__content">
-          <h1>Arshia's Project Hub</h1>
-          <h2>Open Source, High Performance, Secure Connections</h2>
-          <p>{{ config.site_description }}</p>
+  .warp-button:hover .icon {
+      transform: translateX(-5px);
+  }
 
-          <div class="hero-buttons">
-            <a href="/docs/python-v2ray/" class="project-button project-button--primary">
-              <span class="icon">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M22.2 6.4c0-.9-.8-1.5-1.7-1.4L11.9 6c-.8.1-1.4.7-1.4 1.5v1.8c0 .8.6 1.4 1.4 1.5l8.6-1.2c.9-.1 1.7-.8 1.7-1.7V6.4zM20.5 12.3c-.9-.1-1.7.5-1.8 1.4l-1.2 8.6c-.1.8.5 1.6 1.4 1.7h1.8c.8 0 1.5-.6 1.5-1.4V13.9c.1-.9-.5-1.7-1.4-1.8l-1.2-.2zm-9.3-1.4c-.8-.1-1.5-.7-1.5-1.5V7.6c0-.9.6-1.6 1.4-1.7L19.7 5c.8-.1 1.5.5 1.5 1.4v1.8c0 .9-.6 1.6-1.5 1.7L11.2 11zm-2-8.5c.8 0 1.5.6 1.5 1.4v1.8c0 .9-.6 1.6-1.5 1.7L1.2 16C.4 16.1-.2 15.5 0 14.6V13c0-.9.6-1.6 1.5-1.7L9.2 2.7z"></path></svg>
-              </span>
-              python-v2ray
-            </a>
-            <a href="/docs/warp-scanner/" class="project-button project-button--secondary">
-              <span class="icon">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M12 1 2.5 6.5v11L12 23l9.5-5.5v-11L12 1zm0 2.311L19.5 8v8L12 20.311 4.5 16V8L12 3.311z"></path></svg>
-              </span>
-              Warp Scanner
-            </a>
-          </div>
-        </div>
+  .warp-button:active {
+      transform: translateY(1px);
+      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2), 
+                  0 1px 3px rgba(0, 0, 0, 0.15),
+                  inset 0 1px 1px rgba(255, 255, 255, 0.1);
+  }
+
+  .warp-button::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 10px;
+      height: 10px;
+      background: rgba(255, 255, 255, 0.5);
+      border-radius: 50%;
+      transform: translate(-50%, -50%) scale(0);
+      opacity: 0;
+      transition: transform 0.6s, opacity 0.6s;
+  }
+
+  .warp-button:hover::after {
+      transform: translate(-50%, -50%) scale(20);
+      opacity: 0;
+  }
+
+  @keyframes rippleEffect {
+      0% {
+          width: 0;
+          height: 0;
+          opacity: 0.5;
+      }
+      100% {
+          width: 200px;
+          height: 200px;
+          opacity: 0;
+      }
+  }
+  
+  .warp-button {
+      position: relative;
+      overflow: hidden;
+  }
+</style>
+<section class="mdx-container">
+  <div class="md-grid md-typeset">
+    <div class="mdx-hero" dir="ltr">
+      <div class="mdx-hero__image">
+        <img
+          src="assets/images/illustration.png"
+          alt=""
+          width="1659"
+          height="1200"
+          draggable="false"
+        />
+      </div>
+      <div class="mdx-hero__content" dir="rtl">
+        <h1>Warp Scanner</h1>
+        <h2>VPN متن‌باز، اسکنر دقیق، اتصال ایمن</h2>
+        <p>{{ config.site_description }}</p>
+        <button class="warp-button" 
+                onclick="delayedNavigation('{{ page.next_page.url | url }}');"
+                title="{{ page.next_page.title | e }}">
+          <span class="icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M19 12H5M5 12L12 19M5 12L12 5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </span>
+          شروع سریع
+        </button>
       </div>
     </div>
-  </section>
-{% endblock %}
+  </div>
+</section>
 
-{% block content %}{% endblock %}
-{% block footer %}{% endblock %}
+<script>
+  function delayedNavigation(url) {
+    setTimeout(function() {
+      window.location.href = url;
+    }, 500);
+  }
+
+  document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('.warp-button').forEach(button => {
+      button.addEventListener('click', function(e) {
+        const ripple = document.createElement('span');
+        ripple.classList.add('ripple');
+        this.appendChild(ripple);
+        
+        const x = e.clientX - e.target.getBoundingClientRect().left;
+        const y = e.clientY - e.target.getBoundingClientRect().top;
+        
+        ripple.style.cssText = `
+            position: absolute;
+            background-color: rgba(255, 255, 255, 0.7);
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+            pointer-events: none;
+            animation: rippleEffect 0.6s linear;
+            left: ${x}px;
+            top: ${y}px;
+        `;
+        
+        setTimeout(() => {
+            ripple.remove();
+        }, 600);
+      });
+    });
+  });
+</script>
+{% endblock %} {% block content %}{% endblock %} {% block footer %}{% endblock %}
