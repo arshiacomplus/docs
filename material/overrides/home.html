@@ -130,6 +130,9 @@
         transform: translateY(1px);
         box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
     }
+  .p-btn{
+    margin-block-start:3px;
+  }
 </style>
 <section class="mdx-container">
   <div class="md-grid md-typeset">
@@ -158,7 +161,7 @@
           </span>
           WarpScanner
         </button>
-        <button class="hero-buttons project-button project-button--primary" 
+        <button class="hero-buttons project-button project-button--primary p-btn" 
                 onclick="delayedNavigation('{{ page.next_page.url | url }}');"
                 title="{{ page.next_page.title | e }}">
               <span class="icon">
