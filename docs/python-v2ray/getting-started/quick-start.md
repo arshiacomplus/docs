@@ -1,3 +1,5 @@
+lang: en
+
 # Quick Start: Test Your Proxies
 
 This guide will walk you through the most common use case: testing a list of proxy URIs to find the fastest ones.

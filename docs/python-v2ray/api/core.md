@@ -1,3 +1,5 @@
+lang: en
+
 # XrayCore
 
 The `XrayCore` class is a low-level process manager for a single instance of the Xray-core client. It is designed to be used as a context manager (`with` statement) to ensure that the Xray process is started and stopped safely.

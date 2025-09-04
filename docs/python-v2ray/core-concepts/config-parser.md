@@ -1,3 +1,5 @@
+lang: en
+
 # Architecture
 
 `python-v2ray` employs a smart hybrid architecture to achieve both high performance and ease of use. It combines a high-level Python orchestrator with a low-level Go test engine.

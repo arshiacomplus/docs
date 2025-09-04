@@ -1,3 +1,5 @@
+lang: en
+
 # License
 
 This project is distributed under the **GNU General Public License v3.0**.

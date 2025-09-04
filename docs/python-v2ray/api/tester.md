@@ -1,3 +1,5 @@
+lang: en
+
 # ConnectionTester
 
 The `ConnectionTester` class provides the high-level API for running concurrent connectivity tests on a list of proxy configurations.

@@ -1,3 +1,5 @@
+lang: en
+
 # ConfigParams & Parsers
 
 This module provides the core data structures and functions for handling various proxy configuration formats.

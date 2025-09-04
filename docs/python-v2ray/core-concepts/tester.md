@@ -1,3 +1,5 @@
+lang: en
+
 # The Connection Tester
 
 The `ConnectionTester` is the high-performance heart of the library, designed to quickly and accurately determine the quality of a large number of proxy configurations.

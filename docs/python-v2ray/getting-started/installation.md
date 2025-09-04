@@ -1,3 +1,5 @@
+lang: en
+
 # Installation
 
 Getting `python-v2ray` installed is quick and easy. All you need is a supported version of Python.
