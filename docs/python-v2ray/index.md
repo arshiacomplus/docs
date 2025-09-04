@@ -1,3 +1,5 @@
+lang: fa
+
 # Welcome to python-v2ray
 
 **A powerful, high-level Python wrapper for managing and testing V2Ray/Xray-core and Hysteria clients.**
@@ -275,5 +277,6 @@ By converting all configs into a `ConfigParams` object, the library simplifies e
 ### And so on for the rest of the files...
 
 I will stop here for you to review. If you are happy with this style and direction, I will write the content for the remaining files (`core-concepts/tester.md`, the entire `api/` section, and `license.md`) in exactly the same high-quality, professional manner.
+
 
 Just say the word, and we'll complete the rest.
