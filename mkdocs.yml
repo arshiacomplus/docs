@@ -142,12 +142,31 @@ not_in_nav: |
 
 # Page tree
 nav:
-  - صفحـه اصلی: index.md
-  - توضیـحات:
-    - نصـب و راه‌اندازی: getting-started.md
-    - لایسنس: license.md
-  - بیلد گرفتن:
-      - توضیحات بیشتر: build.md
-      - نســخه وینــدوز: build/windows.md
-      - نســخه لینوکس: build/linux.md
-      - نســخه اندرویـد: build/android.md
+  - first page: index.md
+  - lang: en
+      nav:
+      - 'python-v2ray':
+        - 'Introduction': 'python-v2ray/index.md'
+        - 'Getting Started':
+          - 'Installation': 'python-v2ray/getting-started/installation.md'
+          - 'Quick Start': 'python-v2ray/getting-started/quick-start.md'
+        - 'Core Concepts':
+          - 'Architecture': 'python-v2ray/core-concepts/architecture.md'
+          - 'Config Parser': 'python-v2ray/core-concepts/config-parser.md'
+          - 'Tester': 'python-v2ray/core-concepts/tester.md'
+        - 'API Reference':
+          - 'XrayCore': 'python-v2ray/api/core.md'
+          - 'ConfigParams': 'python-v2ray/api/config-parser.md'
+          - 'ConnectionTester': 'python-v2ray/api/tester.md'
+        - 'License': 'python-v2ray/license.md'
+   - lang: fa
+     nav:
+      - 'WarpScanner':
+        - توضیـحات:
+          - نصـب و راه‌اندازی: warp-scanner/getting-started.md
+          - لایسنس: warp-scanner/license.md
+        - بیلد گرفتن:
+            - توضیحات بیشتر: build.md
+            - نســخه وینــدوز: warp-scanner/build/windows.md
+            - نســخه لینوکس: warp-scanner/build/linux.md
+            - نســخه اندرویـد: warp-scanner/build/android.md
