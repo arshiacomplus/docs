@@ -2,7 +2,7 @@ site_name: Docs
 site_url: "https://arshiacomplus.github.io/docs/"
 site_author: ArshiaComplus
 site_description: >-
-  این اسکنر همه چیز رو خودش هندل می‌کنه، از اسکن آی‌پی گرفته تا تنظیمات بهینه وایرگارد متناسب با شرایط اینترنت
+  Central documentation for my open-source projects, including WarpScanner and python-v2ray.
   
 # Repository
 repo_name: WarpScanner
@@ -143,34 +143,26 @@ not_in_nav: |
 # Page tree
 nav:
   - Home: index.md
-
-  # --- بخش انگلیسی ---
-  - lang: en
-    nav:
-      - 'python-v2ray':
-        - 'Introduction': 'python-v2ray/index.md'
-        - 'Getting Started':
-          - 'Installation': 'python-v2ray/getting-started/installation.md'
-          - 'Quick Start': 'python-v2ray/getting-started/quick-start.md'
-        - 'Core Concepts':
-          - 'Architecture': 'python-v2ray/core-concepts/architecture.md'
-          - 'Config Parser': 'python-v2ray/core-concepts/config-parser.md'
-          - 'Tester': 'python-v2ray/core-concepts/tester.md'
-        - 'API Reference':
-          - 'XrayCore': 'python-v2ray/api/core.md'
-          - 'ConfigParams': 'python-v2ray/api/config-parser.md'
-          - 'ConnectionTester': 'python-v2ray/api/tester.md'
-        - 'License': 'python-v2ray/license.md'
-
-  # --- بخش فارسی ---
-  - lang: fa
-    nav:
-      - 'وارپ اسکنر':
-        - 'توضیحات':
-          - 'نصب و راه‌اندازی': 'warp-scanner/getting-started.md'
-          - 'لایسنس': 'warp-scanner/license.md'
-        - 'بیلد گرفتن':
-            - 'توضیحات بیشتر': 'build.md'
-            - 'نسخه ویندوز': 'warp-scanner/build/windows.md'
-            - 'نسخه لینوکس': 'warp-scanner/build/linux.md'
-            - 'نسخه اندروید': 'warp-scanner/build/android.md'
+  - 'python-v2ray': # این بخش به طور خودکار انگلیسی (پیش‌فرض) خواهد بود
+    - 'Introduction': 'python-v2ray/index.md'
+    - 'Getting Started':
+      - 'Installation': 'python-v2ray/getting-started/installation.md'
+      - 'Quick Start': 'python-v2ray/getting-started/quick-start.md'
+    - 'Core Concepts':
+      - 'Architecture': 'python-v2ray/core-concepts/architecture.md'
+      - 'Config Parser': 'python-v2ray/core-concepts/config-parser.md'
+      - 'Tester': 'python-v2ray/core-concepts/tester.md'
+    - 'API Reference':
+      - 'XrayCore': 'python-v2ray/api/core.md'
+      - 'ConfigParams': 'python-v2ray/api/config-parser.md'
+      - 'ConnectionTester': 'python-v2ray/api/tester.md'
+    - 'License': 'python-v2ray/license.md'
+  - 'وارپ اسکنر':
+    - 'توضیحات':
+      - 'نصب و راه‌اندازی': 'warp-scanner/getting-started.md'
+      - 'لایسنس': 'warp-scanner/license.md'
+    - 'بیلد گرفتن':
+      - 'توضیحات بیشتر': 'build.md'
+      - 'نسخه ویندوز': 'warp-scanner/build/windows.md'
+      - 'نسخه لینوکس': 'warp-scanner/build/linux.md'
+      - 'نسخه اندروید': 'warp-scanner/build/android.md'
