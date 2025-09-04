@@ -156,6 +156,7 @@ nav:
       - 'XrayCore': 'python-v2ray/api/core.md'
       - 'ConfigParams': 'python-v2ray/api/config-parser.md'
       - 'ConnectionTester': 'python-v2ray/api/tester.md'
+      - 'Advanced: Monitoring Traffic': 'python-v2ray/api/monitoring-traffic.md' 
     - 'License': 'python-v2ray/license.md'
   - 'وارپ اسکنر':
     - 'توضیحات':
