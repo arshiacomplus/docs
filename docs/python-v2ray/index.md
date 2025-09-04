@@ -1,4 +1,4 @@
-lang: fa
+lang: en
 
 # Welcome to python-v2ray
 
@@ -280,3 +280,4 @@ I will stop here for you to review. If you are happy with this style and directi
 
 
 Just say the word, and we'll complete the rest.
+
