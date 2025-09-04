@@ -142,9 +142,11 @@ not_in_nav: |
 
 # Page tree
 nav:
-  - first page: index.md
+  - Home: index.md
+
+  # --- بخش انگلیسی ---
   - lang: en
-      nav:
+    nav:
       - 'python-v2ray':
         - 'Introduction': 'python-v2ray/index.md'
         - 'Getting Started':
@@ -159,14 +161,16 @@ nav:
           - 'ConfigParams': 'python-v2ray/api/config-parser.md'
           - 'ConnectionTester': 'python-v2ray/api/tester.md'
         - 'License': 'python-v2ray/license.md'
-   - lang: fa
-     nav:
-      - 'WarpScanner':
-        - توضیـحات:
-          - نصـب و راه‌اندازی: warp-scanner/getting-started.md
-          - لایسنس: warp-scanner/license.md
-        - بیلد گرفتن:
-            - توضیحات بیشتر: build.md
-            - نســخه وینــدوز: warp-scanner/build/windows.md
-            - نســخه لینوکس: warp-scanner/build/linux.md
-            - نســخه اندرویـد: warp-scanner/build/android.md
+
+  # --- بخش فارسی ---
+  - lang: fa
+    nav:
+      - 'وارپ اسکنر':
+        - 'توضیحات':
+          - 'نصب و راه‌اندازی': 'warp-scanner/getting-started.md'
+          - 'لایسنس': 'warp-scanner/license.md'
+        - 'بیلد گرفتن':
+            - 'توضیحات بیشتر': 'build.md'
+            - 'نسخه ویندوز': 'warp-scanner/build/windows.md'
+            - 'نسخه لینوکس': 'warp-scanner/build/linux.md'
+            - 'نسخه اندروید': 'warp-scanner/build/android.md'
