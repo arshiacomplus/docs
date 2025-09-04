@@ -98,6 +98,6 @@ def monitor_proxy_traffic():
             print("\n* User stopped the stats viewer.")
 
     print("\n* Monitoring finished. Xray has been stopped.")
-
 if __name__ == "__main__":
     monitor_proxy_traffic()
+```
