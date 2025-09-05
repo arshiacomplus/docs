@@ -1,4 +1,5 @@
 lang: en
+direction: ltr
 
 # Welcome to python-v2ray
 
@@ -24,7 +25,7 @@ This library abstracts away the complexities of binary management, multi-format 
 
     ---
 
-    Seamlessly parse `vless`, `vmess`, `trojan`, `ss`, and `hysteria2` links into a standard object.
+    Seamlessly parse `vless`,`Mvless`, `vmess`, `trojan`, `ss`, and `hysteria2` links into a standard object.
 
 -   :material-api:{ .lg .middle } **Fluent & Powerful API**
 

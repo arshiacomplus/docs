@@ -1,4 +1,5 @@
 lang: en
+direction: ltr
 
 # ConnectionTester
 
