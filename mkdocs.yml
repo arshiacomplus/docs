@@ -15,7 +15,7 @@ copyright: Copyright &copy; 2025 arshiacomplus, Inc
 theme:
   name: material
   custom_dir: material/overrides
-  language: fa
+  language: en
   features:
     - content.code.annotate
     - content.code.copy
