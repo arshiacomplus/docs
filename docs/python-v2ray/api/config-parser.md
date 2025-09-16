@@ -53,6 +53,7 @@ A fluent API for programmatically constructing a complete Xray `config.json`.
 ### Usage
 
 ```python
+
 from python_v2ray.config_parser import XrayConfigBuilder, parse_uri
 
 # Start with a parsed params object
@@ -77,4 +78,6 @@ builder.add_outbound({"protocol": "blackhole", "tag": "block"})
 
 # Get the final JSON string
 final_json = builder.to_json()
+
 print(final_json)
+```
