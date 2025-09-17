@@ -152,8 +152,11 @@ nav:
       - 'Architecture': 'python-v2ray/core-concepts/architecture.md'
       - 'Config Parser': 'python-v2ray/core-concepts/config-parser.md'
       - 'Tester': 'python-v2ray/core-concepts/tester.md'
-      - 'Speed Testing': 'python-v2ray/core-concepts/speed-testing.md'
       - 'Multiplexing (Mux)': 'python-v2ray/core-concepts/multiplexing.md'
+      - 'Speed Testing': 'python-v2ray/core-concepts/speed-testing.md'
+      - 'Proxy Chaining (WARP on Any)': 'python-v2ray/core-concepts/proxy-chaining.md'
+      - 'Loading from Sources': 'python-v2ray/core-concepts/loading-from-sources.md'
+      - 'Deduplicating Configs': 'python-v2ray/core-concepts/deduplicating-configs.md'
     - 'API Reference':
       - 'XrayCore': 'python-v2ray/api/core.md'
       - 'ConfigParams': 'python-v2ray/api/config-parser.md'
