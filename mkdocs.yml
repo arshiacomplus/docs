@@ -143,7 +143,7 @@ not_in_nav: |
 # Page tree
 nav:
   - Home: index.md
-  - 'python-v2ray': # این بخش به طور خودکار انگلیسی (پیش‌فرض) خواهد بود
+  - 'python-v2ray':
     - 'Introduction': 'python-v2ray/index.md'
     - 'Getting Started':
       - 'Installation': 'python-v2ray/getting-started/installation.md'
@@ -152,7 +152,7 @@ nav:
       - 'Architecture': 'python-v2ray/core-concepts/architecture.md'
       - 'Config Parser': 'python-v2ray/core-concepts/config-parser.md'
       - 'Tester': 'python-v2ray/core-concepts/tester.md'
-      - 'Speed Testing': 'core-concepts/speed-testing.md'
+      - 'Speed Testing': 'python-v2ray/core-concepts/speed-testing.md'
       - 'Multiplexing (Mux)': 'python-v2ray/core-concepts/multiplexing.md'
     - 'API Reference':
       - 'XrayCore': 'python-v2ray/api/core.md'
